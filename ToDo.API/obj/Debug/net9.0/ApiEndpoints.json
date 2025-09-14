@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "ToDo.API.Controllers.ToDoController",
+    "Method": "GetAll",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ToDo.API.Dtos.Response.ResponseTaskDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ToDo.API.Controllers.ToDoController",
+    "Method": "create",
+    "RelativePath": "api/ToDo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "ToDo.API.Dtos.RequestTask.RequestTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
