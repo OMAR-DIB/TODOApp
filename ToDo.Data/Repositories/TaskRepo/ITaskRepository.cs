@@ -1,6 +1,6 @@
 ﻿using ToDo.Data.Entities;
 
-namespace ToDo.Data.Repositories
+namespace ToDo.Data.Repositories.TaskRepo
 {
     public interface ITaskRepository
     {

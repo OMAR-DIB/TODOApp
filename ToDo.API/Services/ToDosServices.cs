@@ -2,7 +2,7 @@
 using ToDo.API.Dtos.Response;
 using ToDo.API.Mapping;
 using ToDo.Data.Entities;
-using ToDo.Data.Repositories;
+using ToDo.Data.Repositories.Task;
 
 namespace ToDo.API.Services
 {

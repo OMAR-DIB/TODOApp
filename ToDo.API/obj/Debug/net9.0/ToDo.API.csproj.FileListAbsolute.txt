@@ -164,3 +164,4 @@ C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ToDo.API.genrun
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ref\ToDo.API.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ToDo.API.sourcelink.json

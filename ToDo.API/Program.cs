@@ -4,7 +4,7 @@ using ToDo.API.Services;
 using ToDo.Data;
 using ToDo.Data.Configurations;
 using ToDo.Data.DI;
-using ToDo.Data.Repositories;
+using ToDo.Data.Repositories.Task;
 
 namespace ToDo.API
 {

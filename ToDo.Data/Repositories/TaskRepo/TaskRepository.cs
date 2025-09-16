@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ToDo.Data;
 using ToDo.Data.Entities;
 
-namespace ToDo.Data.Repositories
+namespace ToDo.Data.Repositories.TaskRepo
 {
     public class TaskRepository : ITaskRepository
     {

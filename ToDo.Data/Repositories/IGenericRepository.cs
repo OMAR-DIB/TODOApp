@@ -1,9 +1,10 @@
 ﻿
+using ToDo.Data.Entities.Base;
 using System.Linq.Expressions;
 
 namespace ToDo.Data.Repositories
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : BaseEntity
     {
         Task<T?> GetByIdAsync(int id);
         Task<IEnumerable<T>> GetAllAsync();

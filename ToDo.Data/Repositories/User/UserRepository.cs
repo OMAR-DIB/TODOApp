@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDo.Data.Entities;
 
-namespace ToDo.Data.Repositories
+namespace ToDo.Data.Repositories.User
 {
     public class UserRepository
     {
