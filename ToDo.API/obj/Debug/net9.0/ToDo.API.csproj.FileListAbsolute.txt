@@ -163,5 +163,9 @@ C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ToDo.API.pdb
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ToDo.API.genruntimeconfig.cache
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ref\ToDo.API.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\ToDo.API.sourcelink.json
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\MailKit.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\MimeKit.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NETCore.MailKit.dll

@@ -20,6 +20,7 @@ namespace ToDo.Data.Entities.Base
         
         public bool IsDeleted { get; set; }
 
-        public string CreatedBy { get; set; }
+        // Make this non-null by default to avoid CS8618 warning
+        public string CreatedBy { get; set; } = "System";
     }
 }

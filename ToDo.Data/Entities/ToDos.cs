@@ -16,7 +16,7 @@ namespace ToDo.Data.Entities
 
         public DateOnly? ToDoAt { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
         public ICollection<SubTask> SubTasks { get; set; } 
         public ICollection<Notification> Notifications { get; set; } 
     }
