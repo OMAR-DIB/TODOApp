@@ -14,7 +14,10 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.8",
-          "NETCore.MailKit": "2.1.0"
+          "NETCore.MailKit": "2.1.0",
+          "NLog": "6.0.4",
+          "NLog.Extensions.Logging": "6.0.4",
+          "NLog.Web.AspNetCore": "6.0.4"
         },
         "runtime": {
           "ToDo.Data.dll": {}
@@ -788,6 +791,38 @@
           }
         }
       },
+      "NLog/6.0.4": {
+        "runtime": {
+          "lib/netstandard2.1/NLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.4534"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/6.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Logging": "9.0.8",
+          "NLog": "6.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.735"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/6.0.4": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "6.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.1334"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1368,6 +1403,27 @@
       "sha512": "sha512-+1C0sg4YJQczp/2RVrVbKLIntg7Mou7Ie5M01UBiAsxmIarjfBRlCgKK4sEbPyGask52VRKV29/Zi+41B6LPXA==",
       "path": "netcore.mailkit/2.1.0",
       "hashPath": "netcore.mailkit.2.1.0.nupkg.sha512"
+    },
+    "NLog/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xr+lIk1ZlTTFXEqnxQVLxrDqZlt2tm5X+/AhJbaY2emb/dVtGDiU5QuEtj3gHtwV/SWlP/rJ922I/BPuOJXlRw==",
+      "path": "nlog/6.0.4",
+      "hashPath": "nlog.6.0.4.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8lQ44ZFdJwOJNH61HySZiNUWHjWfT3GYRT3gcTrnlf4mDHWMRKhWvNmr1P0VznT/0sNqpnga+Zy4CECX1SJiDQ==",
+      "path": "nlog.extensions.logging/6.0.4",
+      "hashPath": "nlog.extensions.logging.6.0.4.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F68UvNGQXp7TTah6sG7tKLQpIluzu+VGtpEj6jB+c0nZqjMjKLAhLFzTBHbl69XWaZ7d9zQfyFkRqPa8U+V98A==",
+      "path": "nlog.web.aspnetcore/6.0.4",
+      "hashPath": "nlog.web.aspnetcore.6.0.4.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

@@ -1,0 +1,60 @@
+2025-09-17 13:58:49.7422 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 13:58:49.8726 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 13:58:49.8726 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 13:58:49.9085 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 13:58:49.9085 | INFO | Hosting environment: Development 
+2025-09-17 13:58:49.9085 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 13:59:01.5474 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 58 
+2025-09-17 13:59:01.5985 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 13:59:01.6162 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 13:59:01.6427 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 13:59:02.2989 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 13:59:02.9990 | INFO | Executed DbCommand (64ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 13:59:03.1671 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 860.4432ms. 
+2025-09-17 13:59:03.1716 | INFO | Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-09-17 13:59:03.1716 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 1534.0095ms 
+2025-09-17 13:59:03.1716 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 13:59:03.1716 | INFO | Auth result: POST /api/user/login from ::1 - Status: 401 - ResponsePreview: {"message":"Invalid credentials or email not confirmed."} 
+2025-09-17 13:59:03.1895 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 401 - application/json;+charset=utf-8 1656.5464ms 
+2025-09-17 14:31:48.4737 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 14:31:48.6122 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 14:31:48.6122 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 14:31:48.6515 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 14:31:48.6515 | INFO | Hosting environment: Development 
+2025-09-17 14:31:48.6515 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 14:31:54.4958 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 58 
+2025-09-17 14:31:54.6228 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 14:31:54.6605 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 14:31:54.7076 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 14:31:56.5763 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 14:31:58.8050 | INFO | Executed DbCommand (150ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 14:31:59.3479 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 2746.7928ms. 
+2025-09-17 14:31:59.3638 | INFO | Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-09-17 14:31:59.3871 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 4660.9655ms 
+2025-09-17 14:31:59.3871 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 14:31:59.3871 | INFO | Auth result: POST /api/user/login from ::1 - Status: 401 - ResponsePreview: {"message":"Invalid credentials or email not confirmed."} 
+2025-09-17 14:31:59.4219 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 401 - application/json;+charset=utf-8 4930.4557ms 

@@ -169,3 +169,6 @@ C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\BouncyCastle.Cr
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\MailKit.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\MimeKit.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NETCore.MailKit.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.Extensions.Logging.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.Web.AspNetCore.dll

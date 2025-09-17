@@ -1,0 +1,1170 @@
+2025-09-17 13:58:49.6746 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-17 13:58:49.7304 | DEBUG | Hosting starting 
+2025-09-17 13:58:49.7422 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-17 13:58:49.7557 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-17 13:58:49.7691 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-17 13:58:49.7691 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 13:58:49.7691 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-17 13:58:49.7691 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 13:58:49.7805 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-17 13:58:49.7805 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-17 13:58:49.7805 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-17 13:58:49.7805 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-17 13:58:49.7805 | DEBUG | Middleware loaded 
+2025-09-17 13:58:49.7805 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-17 13:58:49.7805 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-17 13:58:49.8191 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-17 13:58:49.8191 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-17 13:58:49.8191 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-17 13:58:49.8726 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-17 13:58:49.8726 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-17 13:58:49.8726 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-17 13:58:49.8726 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-17 13:58:49.8785 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 13:58:49.8785 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 13:58:49.9085 | DEBUG | Hosting started 
+2025-09-17 13:59:01.4640 | DEBUG | Connection id "0HNFLR4QRM4C5" received FIN. 
+2025-09-17 13:59:01.4695 | DEBUG | Connection id "0HNFLR4QRM4C5" accepted. 
+2025-09-17 13:59:01.4695 | DEBUG | Connection id "0HNFLR4QRM4C5" started. 
+2025-09-17 13:59:01.4695 | DEBUG | Connection id "0HNFLR4QRM4C6" accepted. 
+2025-09-17 13:59:01.4695 | DEBUG | Connection id "0HNFLR4QRM4C6" started. 
+2025-09-17 13:59:01.4847 | DEBUG | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-17 13:59:01.4847 | DEBUG | Connection id "0HNFLR4QRM4C5" stopped. 
+2025-09-17 13:59:01.4847 | DEBUG | Connection id "0HNFLR4QRM4C5" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-17 13:59:01.5168 | DEBUG | Connection 0HNFLR4QRM4C6 established using the following protocol: Tls13 
+2025-09-17 13:59:01.5758 | DEBUG | 1 candidate(s) found for the request path '/api/user/login' 
+2025-09-17 13:59:01.5758 | DEBUG | Endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' with route pattern 'api/User/login' is valid for the request path '/api/user/login' 
+2025-09-17 13:59:01.5775 | DEBUG | Request matched endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 13:59:01.5775 | DEBUG | Connection id "0HNFLR4QRM4C6", Request id "0HNFLR4QRM4C6:00000001": started reading request body. 
+2025-09-17 13:59:01.5775 | DEBUG | Connection id "0HNFLR4QRM4C6", Request id "0HNFLR4QRM4C6:00000001": done reading request body. 
+2025-09-17 13:59:01.6162 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 13:59:01.6427 | DEBUG | Execution plan of authorization filters (in the following order): None 
+2025-09-17 13:59:01.6427 | DEBUG | Execution plan of resource filters (in the following order): None 
+2025-09-17 13:59:01.6427 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-17 13:59:01.6427 | DEBUG | Execution plan of exception filters (in the following order): None 
+2025-09-17 13:59:01.6427 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-17 13:59:01.6427 | DEBUG | Executing controller factory for controller ToDo.API.Controllers.UserController (ToDo.API) 
+2025-09-17 13:59:01.7132 | DEBUG | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-17 13:59:02.0742 | DEBUG | The index {'UserId'} was not created on entity type 'UserRole' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-09-17 13:59:02.2709 | DEBUG | Entity Framework Core 9.0.8 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: MigrationsAssembly=ToDo.Data EngineType=SqlServer  
+2025-09-17 13:59:02.2709 | DEBUG | Executed controller factory for controller ToDo.API.Controllers.UserController (ToDo.API) 
+2025-09-17 13:59:02.2709 | DEBUG | Attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' ... 
+2025-09-17 13:59:02.2709 | DEBUG | Attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' using the name '' in request data ... 
+2025-09-17 13:59:02.2709 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-09-17 13:59:02.2850 | DEBUG | JSON input formatter succeeded, deserializing to type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' 
+2025-09-17 13:59:02.2850 | DEBUG | Done attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 13:59:02.2850 | DEBUG | Done attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 13:59:02.2850 | DEBUG | Attempting to validate the bound parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' ... 
+2025-09-17 13:59:02.2850 | DEBUG | Done attempting to validate the bound parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 13:59:02.3568 | DEBUG | Compiling query expression: 
+'DbSet<User>()
+    .Where(u => u.Email == __dto_Email_0 && !(u.IsDeleted))
+    .Where(e => !(e.IsDeleted))
+    .Include("UserRoles")
+    .Include("UserRoles.Role")
+    .FirstOrDefault()' 
+2025-09-17 13:59:02.3919 | DEBUG | Including navigation: 'User.UserRoles'. 
+2025-09-17 13:59:02.4063 | DEBUG | Including navigation: 'UserRole.Role'. 
+2025-09-17 13:59:02.6916 | DEBUG | Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: UserRole.UserId (int) Required PK FK AfterSave:Throw, 12], [Property: UserRole.RoleId (int) Required PK FK Index AfterSave:Throw, 13], [Property: UserRole.CreatedAt (DateTime) Required, 14], [Property: UserRole.CreatedBy (string) Required, 15], [Property: UserRole.Id (int) Required ValueGenerated.OnAdd, 16], [Property: UserRole.IsDeleted (bool) Required, 17], [Property: UserRole.UpdatedAt (DateTime?), 18] }
+                3 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 19], [Property: Role.CreatedAt (DateTime) Required, 20], [Property: Role.CreatedBy (string) Required, 21], [Property: Role.IsDeleted (bool) Required, 22], [Property: Role.Name (string) Required, 23], [Property: Role.UpdatedAt (DateTime?), 24] }
+                4 -> 12
+                5 -> 13
+                6 -> 19
+            SELECT u1.Id, u1.CreatedAt, u1.CreatedBy, u1.Email, u1.EmailVerificationCodeExpires, u1.EmailVerificationCodeHash, u1.IsDeleted, u1.IsEmailConfirmed, u1.LastVerificationSentAt, u1.Password, u1.UpdatedAt, u1.Username, s.UserId, s.RoleId, s.CreatedAt, s.CreatedBy, s.Id, s.IsDeleted, s.UpdatedAt, s.Id0, s.CreatedAt0, s.CreatedBy0, s.IsDeleted0, s.Name, s.UpdatedAt0
+            FROM 
+            (
+                SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+                FROM Users AS u
+                WHERE ((u.Email == @__dto_Email_0) && Not(u.IsDeleted)) && Not(u.IsDeleted)
+            ) AS u1
+            LEFT JOIN 
+            (
+                SELECT u0.UserId, u0.RoleId, u0.CreatedAt, u0.CreatedBy, u0.Id, u0.IsDeleted, u0.UpdatedAt, r.Id AS Id0, r.CreatedAt AS CreatedAt0, r.CreatedBy AS CreatedBy0, r.IsDeleted AS IsDeleted0, r.Name, r.UpdatedAt AS UpdatedAt0
+                FROM UserRole AS u0
+                INNER JOIN Roles AS r ON u0.RoleId == r.Id
+            ) AS s ON u1.Id == s.UserId
+            ORDER BY u1.Id ASC, s.UserId ASC, s.RoleId ASC) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: UserRole.UserId (int) Required PK FK AfterSave:Throw, 12], [Property: UserRole.RoleId (int) Required PK FK Index AfterSave:Throw, 13], [Property: UserRole.CreatedAt (DateTime) Required, 14], [Property: UserRole.CreatedBy (string) Required, 15], [Property: UserRole.Id (int) Required ValueGenerated.OnAdd, 16], [Property: UserRole.IsDeleted (bool) Required, 17], [Property: UserRole.UpdatedAt (DateTime?), 18] }
+                3 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 19], [Property: Role.CreatedAt (DateTime) Required, 20], [Property: Role.CreatedBy (string) Required, 21], [Property: Role.IsDeleted (bool) Required, 22], [Property: Role.Name (string) Required, 23], [Property: Role.UpdatedAt (DateTime?), 24] }
+                4 -> 12
+                5 -> 13
+                6 -> 19
+            SELECT u1.Id, u1.CreatedAt, u1.CreatedBy, u1.Email, u1.EmailVerificationCodeExpires, u1.EmailVerificationCodeHash, u1.IsDeleted, u1.IsEmailConfirmed, u1.LastVerificationSentAt, u1.Password, u1.UpdatedAt, u1.Username, s.UserId, s.RoleId, s.CreatedAt, s.CreatedBy, s.Id, s.IsDeleted, s.UpdatedAt, s.Id0, s.CreatedAt0, s.CreatedBy0, s.IsDeleted0, s.Name, s.UpdatedAt0
+            FROM 
+            (
+                SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+                FROM Users AS u
+                WHERE ((u.Email == @__dto_Email_0) && Not(u.IsDeleted)) && Not(u.IsDeleted)
+            ) AS u1
+            LEFT JOIN 
+            (
+                SELECT u0.UserId, u0.RoleId, u0.CreatedAt, u0.CreatedBy, u0.Id, u0.IsDeleted, u0.UpdatedAt, r.Id AS Id0, r.CreatedAt AS CreatedAt0, r.CreatedBy AS CreatedBy0, r.IsDeleted AS IsDeleted0, r.Name, r.UpdatedAt AS UpdatedAt0
+                FROM UserRole AS u0
+                INNER JOIN Roles AS r ON u0.RoleId == r.Id
+            ) AS s ON u1.Id == s.UserId
+            ORDER BY u1.Id ASC, s.UserId ASC, s.RoleId ASC, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: [LIFTABLE Constant: ReaderColumn[] { ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<bool>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<int>, ReaderColumn<bool>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<object>, ReaderColumn<DateTime> } | Resolver: namelessParameter{0} => new ReaderColumn[]
+        { 
+            new ReaderColumn<int>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(0)
+            ), 
+            new ReaderColumn<DateTime>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(1)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(2)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Email"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(3)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeExpires"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(4)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeHash"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(5)
+            ), 
+            new ReaderColumn<bool>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(6)
+            ), 
+            new ReaderColumn<bool>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsEmailConfirmed"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(7)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("LastVerificationSentAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(8)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Password"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(9)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(10)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Username"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(11)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("UserId"), 
+                (dataReader, indexMap) => dataReader.GetInt32(12)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("RoleId"), 
+                (dataReader, indexMap) => dataReader.GetInt32(13)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(14)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(15)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(16)
+            ), 
+            new ReaderColumn<bool>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(17)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(18)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(19)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(20)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(21)
+            ), 
+            new ReaderColumn<bool>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(22)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Name"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(23)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(24)
+            ) 
+        }], 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            resultContext.Values == null ? 
+            {
+                User entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext1;
+                    IEntityType entityType1;
+                    User instance1;
+                    InternalEntityEntry entry1;
+                    bool hasNullKey1;
+                    materializationContext1 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance1 = default(User);
+                    entry1 = queryContext.TryGetEntry(
+                        key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindPrimaryKey()], 
+                        keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                        throwOnNullKey: True, 
+                        hasNullKey: hasNullKey1);
+                    !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                    {
+                        entityType1 = entry1.EntityType;
+                        return instance1 = (User)entry1.Entity;
+                    } : 
+                    {
+                        ISnapshot shadowSnapshot1;
+                        shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")];
+                        instance1 = switch (entityType1)
+                        {
+                            case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]: 
+                                {
+                                    return 
+                                    {
+                                        User instance;
+                                        instance = new User();
+                                        instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                        instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                        instance.<CreatedBy>k__BackingField = (string)dataReader.GetFieldValue<object>(2);
+                                        instance.<Email>k__BackingField = (string)dataReader.GetFieldValue<object>(3);
+                                        instance.<EmailVerificationCodeExpires>k__BackingField = dataReader.IsDBNull(4) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(4);
+                                        instance.<EmailVerificationCodeHash>k__BackingField = dataReader.IsDBNull(5) ? default(string) : (string)dataReader.GetFieldValue<object>(5);
+                                        instance.<IsDeleted>k__BackingField = dataReader.GetBoolean(6);
+                                        instance.<IsEmailConfirmed>k__BackingField = dataReader.GetBoolean(7);
+                                        instance.<LastVerificationSentAt>k__BackingField = dataReader.IsDBNull(8) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(8);
+                                        instance.<Password>k__BackingField = (string)dataReader.GetFieldValue<object>(9);
+                                        instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(10) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(10);
+                                        instance.<Username>k__BackingField = (string)dataReader.GetFieldValue<object>(11);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext1.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: TrackAll, 
+                                            structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(User)
+                        }
+                        ;
+                        entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                            entityType: entityType1, 
+                            entity: instance1, 
+                            snapshot: shadowSnapshot1);
+                        return instance1;
+                    } : default(void);
+                    return instance1;
+                };
+                resultContext.Values = new object[]{ entity };
+                ShaperProcessingExpressionVisitor.InitializeIncludeCollection<User, User>(
+                    collectionId: 0, 
+                    queryContext: queryContext, 
+                    dbDataReader: dataReader, 
+                    resultCoordinator: resultCoordinator, 
+                    entity: (User)(resultContext.Values[0]), 
+                    parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                    outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                    navigation: [LIFTABLE Constant: Navigation: User.UserRoles (ICollection<UserRole>) Collection ToDependent UserRole Inverse: User | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles")], 
+                    clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<User, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles").GetCollectionAccessor()], 
+                    trackingQuery: True, 
+                    setLoaded: True);
+            } : default(void);
+            ShaperProcessingExpressionVisitor.PopulateIncludeCollection<User, UserRole>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+                { 
+                    (object)dataReader.IsDBNull(12) ? default(int?) : (int?)dataReader.GetInt32(12), 
+                    (object)dataReader.IsDBNull(13) ? default(int?) : (int?)dataReader.GetInt32(13), 
+                    (object)dataReader.IsDBNull(19) ? default(int?) : (int?)dataReader.GetInt32(19) 
+                }], 
+                parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (int)left == (int)right }], 
+                outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (int)left == (int)right }], 
+                selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool>, Func<object, object, bool>, Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]
+                { 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right 
+                }], 
+                innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+                {
+                    UserRole entity;
+                    Role entity;
+                    entity = 
+                    {
+                        MaterializationContext materializationContext2;
+                        IEntityType entityType2;
+                        UserRole instance2;
+                        InternalEntityEntry entry2;
+                        bool hasNullKey2;
+                        materializationContext2 = new MaterializationContext(
+                            [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                            queryContext.Context
+                        );
+                        instance2 = default(UserRole);
+                        entry2 = queryContext.TryGetEntry(
+                            key: [LIFTABLE Constant: Key: UserRole.UserId, UserRole.RoleId PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindPrimaryKey()], 
+                            keyValues: new object[]
+                            { 
+                                dataReader.IsDBNull(12) ? default(object) : (object)dataReader.GetInt32(12), 
+                                dataReader.IsDBNull(13) ? default(object) : (object)dataReader.GetInt32(13) 
+                            }, 
+                            throwOnNullKey: False, 
+                            hasNullKey: hasNullKey2);
+                        !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+                        {
+                            entityType2 = entry2.EntityType;
+                            return instance2 = (UserRole)entry2.Entity;
+                        } : 
+                        {
+                            ISnapshot shadowSnapshot2;
+                            shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                            entityType2 = [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")];
+                            instance2 = switch (entityType2)
+                            {
+                                case [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")]: 
+                                    {
+                                        return 
+                                        {
+                                            UserRole instance;
+                                            instance = new UserRole();
+                                            instance.<UserId>k__BackingField = dataReader.IsDBNull(12) ? default(int) : dataReader.GetInt32(12);
+                                            instance.<RoleId>k__BackingField = dataReader.IsDBNull(13) ? default(int) : dataReader.GetInt32(13);
+                                            instance.<CreatedAt>k__BackingField = dataReader.IsDBNull(14) ? default(DateTime) : dataReader.GetDateTime(14);
+                                            instance.<CreatedBy>k__BackingField = dataReader.IsDBNull(15) ? default(string) : (string)dataReader.GetFieldValue<object>(15);
+                                            instance.<Id>k__BackingField = dataReader.IsDBNull(16) ? default(int) : dataReader.GetInt32(16);
+                                            instance.<IsDeleted>k__BackingField = dataReader.IsDBNull(17) ? default(bool) : dataReader.GetBoolean(17);
+                                            instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(18) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(18);
+                                            (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                                context: materializationContext2.Context, 
+                                                entity: instance, 
+                                                queryTrackingBehavior: TrackAll, 
+                                                structuralType: [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")]) : default(void);
+                                            return instance;
+                                        }}
+                                default: 
+                                    default(UserRole)
+                            }
+                            ;
+                            entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                                entityType: entityType2, 
+                                entity: instance2, 
+                                snapshot: shadowSnapshot2);
+                            return instance2;
+                        } : default(void);
+                        return instance2;
+                    };
+                    entity = 
+                    {
+                        MaterializationContext materializationContext3;
+                        IEntityType entityType3;
+                        Role instance3;
+                        InternalEntityEntry entry3;
+                        bool hasNullKey3;
+                        materializationContext3 = new MaterializationContext(
+                            [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                            queryContext.Context
+                        );
+                        instance3 = default(Role);
+                        entry3 = queryContext.TryGetEntry(
+                            key: [LIFTABLE Constant: Key: Role.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindPrimaryKey()], 
+                            keyValues: new object[]{ dataReader.IsDBNull(19) ? default(object) : (object)dataReader.GetInt32(19) }, 
+                            throwOnNullKey: False, 
+                            hasNullKey: hasNullKey3);
+                        !(hasNullKey3) ? entry3 != default(InternalEntityEntry) ? 
+                        {
+                            entityType3 = entry3.EntityType;
+                            return instance3 = (Role)entry3.Entity;
+                        } : 
+                        {
+                            ISnapshot shadowSnapshot3;
+                            shadowSnapshot3 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                            entityType3 = [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")];
+                            instance3 = switch (entityType3)
+                            {
+                                case [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]: 
+                                    {
+                                        return 
+                                        {
+                                            Role instance;
+                                            instance = new Role();
+                                            instance.<Id>k__BackingField = dataReader.IsDBNull(19) ? default(int) : dataReader.GetInt32(19);
+                                            instance.<CreatedAt>k__BackingField = dataReader.IsDBNull(20) ? default(DateTime) : dataReader.GetDateTime(20);
+                                            instance.<CreatedBy>k__BackingField = dataReader.IsDBNull(21) ? default(string) : (string)dataReader.GetFieldValue<object>(21);
+                                            instance.<IsDeleted>k__BackingField = dataReader.IsDBNull(22) ? default(bool) : dataReader.GetBoolean(22);
+                                            instance.<Name>k__BackingField = dataReader.IsDBNull(23) ? default(string) : (string)dataReader.GetFieldValue<object>(23);
+                                            instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(24) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(24);
+                                            (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                                context: materializationContext3.Context, 
+                                                entity: instance, 
+                                                queryTrackingBehavior: TrackAll, 
+                                                structuralType: [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{11} => namelessParameter{11}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]) : default(void);
+                                            return instance;
+                                        }}
+                                default: 
+                                    default(Role)
+                            }
+                            ;
+                            entry3 = entityType3 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                                entityType: entityType3, 
+                                entity: instance3, 
+                                snapshot: shadowSnapshot3);
+                            return instance3;
+                        } : default(void);
+                        return instance3;
+                    };
+                    ShaperProcessingExpressionVisitor.IncludeReference<UserRole, UserRole, Role>(
+                        queryContext: queryContext, 
+                        entity: entity, 
+                        relatedEntity: entity, 
+                        navigation: [LIFTABLE Constant: Navigation: UserRole.Role (Role) ToPrincipal Role Inverse: UserRoles | Resolver: namelessParameter{12} => namelessParameter{12}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindNavigation("Role")], 
+                        inverseNavigation: [LIFTABLE Constant: Navigation: Role.UserRoles (ICollection<UserRole>) Collection ToDependent UserRole Inverse: Role | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindNavigation("UserRoles")], 
+                        fixup: (namelessParameter{14}, namelessParameter{15}) => 
+                        {
+                            namelessParameter{14}.<Role>k__BackingField = namelessParameter{15};
+                            return [LIFTABLE Constant: ClrICollectionAccessor<Role, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{16} => namelessParameter{16}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindNavigation("UserRoles").GetCollectionAccessor()].Add(
+                                entity: namelessParameter{15}, 
+                                value: namelessParameter{14}, 
+                                forMaterialization: True);
+                        }, 
+                        trackingQuery: True);
+                    return entity;
+                }, 
+                inverseNavigation: [LIFTABLE Constant: Navigation: UserRole.User (User) ToPrincipal User Inverse: UserRoles | Resolver: namelessParameter{17} => namelessParameter{17}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindNavigation("User")], 
+                fixup: (namelessParameter{18}, namelessParameter{19}) => 
+                {
+                    [LIFTABLE Constant: ClrICollectionAccessor<User, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{20} => namelessParameter{20}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles").GetCollectionAccessor()].Add(
+                        entity: namelessParameter{18}, 
+                        value: namelessParameter{19}, 
+                        forMaterialization: True);
+                    return namelessParameter{19}.<User>k__BackingField = namelessParameter{18};
+                }, 
+                trackingQuery: True);
+            return IsTrue(resultCoordinator.ResultReady)
+             ? (User)(resultContext.Values[0]) : default(User);
+        }, 
+        contextType: ToDo.Data.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-09-17 13:59:02.7378 | DEBUG | Creating DbConnection. 
+2025-09-17 13:59:02.7538 | DEBUG | Created DbConnection. (13ms). 
+2025-09-17 13:59:02.7538 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 13:59:02.9029 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 13:59:02.9029 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-17 13:59:02.9120 | DEBUG | Created DbCommand for 'ExecuteReader' (2ms). 
+2025-09-17 13:59:02.9120 | DEBUG | Initialized DbCommand for 'ExecuteReader' (14ms). 
+2025-09-17 13:59:02.9283 | DEBUG | Executing DbCommand [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 13:59:03.0403 | DEBUG | Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 13:59:03.0803 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 13:59:03.0803 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 59ms reading results. 
+2025-09-17 13:59:03.0803 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 13:59:03.0803 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (3ms). 
+2025-09-17 13:59:03.1716 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-17 13:59:03.1716 | DEBUG | No information found on request to perform content negotiation. 
+2025-09-17 13:59:03.1716 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-17 13:59:03.1716 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-17 13:59:03.1716 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-09-17 13:59:03.1895 | DEBUG | Connection id "0HNFLR4QRM4C6" completed keep alive response. 
+2025-09-17 13:59:03.1895 | DEBUG | 'AppDbContext' disposed. 
+2025-09-17 13:59:03.1895 | DEBUG | Disposing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 13:59:03.1895 | DEBUG | Disposed connection to database '' on server '' (1ms). 
+2025-09-17 14:01:14.8284 | DEBUG | Connection id "0HNFLR4QRM4C6" disconnecting. 
+2025-09-17 14:01:14.8291 | DEBUG | Connection id "0HNFLR4QRM4C6" stopped. 
+2025-09-17 14:01:14.8291 | DEBUG | Connection id "0HNFLR4QRM4C6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-17 14:31:48.3809 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-17 14:31:48.4568 | DEBUG | Hosting starting 
+2025-09-17 14:31:48.4838 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-17 14:31:48.4838 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-17 14:31:48.5128 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-17 14:31:48.5143 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 14:31:48.5143 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-17 14:31:48.5143 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 14:31:48.5143 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-17 14:31:48.5143 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-17 14:31:48.5143 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-17 14:31:48.5143 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-17 14:31:48.5143 | DEBUG | Middleware loaded 
+2025-09-17 14:31:48.5143 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-17 14:31:48.5304 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-17 14:31:48.5596 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-17 14:31:48.5596 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-17 14:31:48.5630 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-17 14:31:48.6122 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-17 14:31:48.6122 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-17 14:31:48.6122 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-17 14:31:48.6122 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-17 14:31:48.6122 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 14:31:48.6122 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 14:31:48.6515 | DEBUG | Hosting started 
+2025-09-17 14:31:54.3415 | DEBUG | Connection id "0HNFLRN6QGE1M" received FIN. 
+2025-09-17 14:31:54.3539 | DEBUG | Connection id "0HNFLRN6QGE1M" accepted. 
+2025-09-17 14:31:54.3539 | DEBUG | Connection id "0HNFLRN6QGE1M" started. 
+2025-09-17 14:31:54.3539 | DEBUG | Connection id "0HNFLRN6QGE1N" accepted. 
+2025-09-17 14:31:54.3539 | DEBUG | Connection id "0HNFLRN6QGE1N" started. 
+2025-09-17 14:31:54.3890 | DEBUG | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-17 14:31:54.4020 | DEBUG | Connection id "0HNFLRN6QGE1M" stopped. 
+2025-09-17 14:31:54.4020 | DEBUG | Connection id "0HNFLRN6QGE1M" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-17 14:31:54.4461 | DEBUG | Connection 0HNFLRN6QGE1N established using the following protocol: Tls13 
+2025-09-17 14:31:54.5534 | DEBUG | 1 candidate(s) found for the request path '/api/user/login' 
+2025-09-17 14:31:54.5534 | DEBUG | Endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' with route pattern 'api/User/login' is valid for the request path '/api/user/login' 
+2025-09-17 14:31:54.5534 | DEBUG | Request matched endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 14:31:54.5996 | DEBUG | Connection id "0HNFLRN6QGE1N", Request id "0HNFLRN6QGE1N:00000001": started reading request body. 
+2025-09-17 14:31:54.5996 | DEBUG | Connection id "0HNFLRN6QGE1N", Request id "0HNFLRN6QGE1N:00000001": done reading request body. 
+2025-09-17 14:31:54.6573 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 14:31:54.7076 | DEBUG | Execution plan of authorization filters (in the following order): None 
+2025-09-17 14:31:54.7076 | DEBUG | Execution plan of resource filters (in the following order): None 
+2025-09-17 14:31:54.7076 | DEBUG | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-17 14:31:54.7076 | DEBUG | Execution plan of exception filters (in the following order): None 
+2025-09-17 14:31:54.7076 | DEBUG | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-17 14:31:54.7076 | DEBUG | Executing controller factory for controller ToDo.API.Controllers.UserController (ToDo.API) 
+2025-09-17 14:31:54.8730 | DEBUG | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-17 14:31:55.7055 | DEBUG | The index {'UserId'} was not created on entity type 'UserRole' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-09-17 14:31:56.4689 | DEBUG | Entity Framework Core 9.0.8 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: MigrationsAssembly=ToDo.Data EngineType=SqlServer  
+2025-09-17 14:31:56.4689 | DEBUG | Executed controller factory for controller ToDo.API.Controllers.UserController (ToDo.API) 
+2025-09-17 14:31:56.4864 | DEBUG | Attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' ... 
+2025-09-17 14:31:56.4864 | DEBUG | Attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' using the name '' in request data ... 
+2025-09-17 14:31:56.4864 | DEBUG | Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-09-17 14:31:56.5249 | DEBUG | JSON input formatter succeeded, deserializing to type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' 
+2025-09-17 14:31:56.5249 | DEBUG | Done attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 14:31:56.5249 | DEBUG | Done attempting to bind parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 14:31:56.5249 | DEBUG | Attempting to validate the bound parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto' ... 
+2025-09-17 14:31:56.5448 | DEBUG | Done attempting to validate the bound parameter 'dto' of type 'ToDo.API.Dtos.UserDtos.Login.LoginRequestDto'. 
+2025-09-17 14:31:56.7932 | DEBUG | Compiling query expression: 
+'DbSet<User>()
+    .Where(u => u.Email == __dto_Email_0 && !(u.IsDeleted))
+    .Where(e => !(e.IsDeleted))
+    .Include("UserRoles")
+    .Include("UserRoles.Role")
+    .FirstOrDefault()' 
+2025-09-17 14:31:56.9413 | DEBUG | Including navigation: 'User.UserRoles'. 
+2025-09-17 14:31:57.0210 | DEBUG | Including navigation: 'UserRole.Role'. 
+2025-09-17 14:31:57.9309 | DEBUG | Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: UserRole.UserId (int) Required PK FK AfterSave:Throw, 12], [Property: UserRole.RoleId (int) Required PK FK Index AfterSave:Throw, 13], [Property: UserRole.CreatedAt (DateTime) Required, 14], [Property: UserRole.CreatedBy (string) Required, 15], [Property: UserRole.Id (int) Required ValueGenerated.OnAdd, 16], [Property: UserRole.IsDeleted (bool) Required, 17], [Property: UserRole.UpdatedAt (DateTime?), 18] }
+                3 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 19], [Property: Role.CreatedAt (DateTime) Required, 20], [Property: Role.CreatedBy (string) Required, 21], [Property: Role.IsDeleted (bool) Required, 22], [Property: Role.Name (string) Required, 23], [Property: Role.UpdatedAt (DateTime?), 24] }
+                4 -> 12
+                5 -> 13
+                6 -> 19
+            SELECT u1.Id, u1.CreatedAt, u1.CreatedBy, u1.Email, u1.EmailVerificationCodeExpires, u1.EmailVerificationCodeHash, u1.IsDeleted, u1.IsEmailConfirmed, u1.LastVerificationSentAt, u1.Password, u1.UpdatedAt, u1.Username, s.UserId, s.RoleId, s.CreatedAt, s.CreatedBy, s.Id, s.IsDeleted, s.UpdatedAt, s.Id0, s.CreatedAt0, s.CreatedBy0, s.IsDeleted0, s.Name, s.UpdatedAt0
+            FROM 
+            (
+                SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+                FROM Users AS u
+                WHERE ((u.Email == @__dto_Email_0) && Not(u.IsDeleted)) && Not(u.IsDeleted)
+            ) AS u1
+            LEFT JOIN 
+            (
+                SELECT u0.UserId, u0.RoleId, u0.CreatedAt, u0.CreatedBy, u0.Id, u0.IsDeleted, u0.UpdatedAt, r.Id AS Id0, r.CreatedAt AS CreatedAt0, r.CreatedBy AS CreatedBy0, r.IsDeleted AS IsDeleted0, r.Name, r.UpdatedAt AS UpdatedAt0
+                FROM UserRole AS u0
+                INNER JOIN Roles AS r ON u0.RoleId == r.Id
+            ) AS s ON u1.Id == s.UserId
+            ORDER BY u1.Id ASC, s.UserId ASC, s.RoleId ASC) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: UserRole.UserId (int) Required PK FK AfterSave:Throw, 12], [Property: UserRole.RoleId (int) Required PK FK Index AfterSave:Throw, 13], [Property: UserRole.CreatedAt (DateTime) Required, 14], [Property: UserRole.CreatedBy (string) Required, 15], [Property: UserRole.Id (int) Required ValueGenerated.OnAdd, 16], [Property: UserRole.IsDeleted (bool) Required, 17], [Property: UserRole.UpdatedAt (DateTime?), 18] }
+                3 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 19], [Property: Role.CreatedAt (DateTime) Required, 20], [Property: Role.CreatedBy (string) Required, 21], [Property: Role.IsDeleted (bool) Required, 22], [Property: Role.Name (string) Required, 23], [Property: Role.UpdatedAt (DateTime?), 24] }
+                4 -> 12
+                5 -> 13
+                6 -> 19
+            SELECT u1.Id, u1.CreatedAt, u1.CreatedBy, u1.Email, u1.EmailVerificationCodeExpires, u1.EmailVerificationCodeHash, u1.IsDeleted, u1.IsEmailConfirmed, u1.LastVerificationSentAt, u1.Password, u1.UpdatedAt, u1.Username, s.UserId, s.RoleId, s.CreatedAt, s.CreatedBy, s.Id, s.IsDeleted, s.UpdatedAt, s.Id0, s.CreatedAt0, s.CreatedBy0, s.IsDeleted0, s.Name, s.UpdatedAt0
+            FROM 
+            (
+                SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+                FROM Users AS u
+                WHERE ((u.Email == @__dto_Email_0) && Not(u.IsDeleted)) && Not(u.IsDeleted)
+            ) AS u1
+            LEFT JOIN 
+            (
+                SELECT u0.UserId, u0.RoleId, u0.CreatedAt, u0.CreatedBy, u0.Id, u0.IsDeleted, u0.UpdatedAt, r.Id AS Id0, r.CreatedAt AS CreatedAt0, r.CreatedBy AS CreatedBy0, r.IsDeleted AS IsDeleted0, r.Name, r.UpdatedAt AS UpdatedAt0
+                FROM UserRole AS u0
+                INNER JOIN Roles AS r ON u0.RoleId == r.Id
+            ) AS s ON u1.Id == s.UserId
+            ORDER BY u1.Id ASC, s.UserId ASC, s.RoleId ASC, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: [LIFTABLE Constant: ReaderColumn[] { ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<bool>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<int>, ReaderColumn<bool>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<object>, ReaderColumn<DateTime> } | Resolver: namelessParameter{0} => new ReaderColumn[]
+        { 
+            new ReaderColumn<int>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(0)
+            ), 
+            new ReaderColumn<DateTime>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(1)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(2)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Email"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(3)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeExpires"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(4)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeHash"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(5)
+            ), 
+            new ReaderColumn<bool>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(6)
+            ), 
+            new ReaderColumn<bool>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsEmailConfirmed"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(7)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("LastVerificationSentAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(8)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Password"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(9)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(10)
+            ), 
+            new ReaderColumn<object>(
+                False, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Username"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(11)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("UserId"), 
+                (dataReader, indexMap) => dataReader.GetInt32(12)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("RoleId"), 
+                (dataReader, indexMap) => dataReader.GetInt32(13)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(14)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(15)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(16)
+            ), 
+            new ReaderColumn<bool>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(17)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(18)
+            ), 
+            new ReaderColumn<int>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Id"), 
+                (dataReader, indexMap) => dataReader.GetInt32(19)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(20)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedBy"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(21)
+            ), 
+            new ReaderColumn<bool>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("IsDeleted"), 
+                (dataReader, indexMap) => dataReader.GetBoolean(22)
+            ), 
+            new ReaderColumn<object>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Name"), 
+                (dataReader, indexMap) => (object)dataReader.GetString(23)
+            ), 
+            new ReaderColumn<DateTime>(
+                True, 
+                null, 
+                namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("UpdatedAt"), 
+                (dataReader, indexMap) => dataReader.GetDateTime(24)
+            ) 
+        }], 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            resultContext.Values == null ? 
+            {
+                User entity;
+                entity = 
+                {
+                    MaterializationContext materializationContext1;
+                    IEntityType entityType1;
+                    User instance1;
+                    InternalEntityEntry entry1;
+                    bool hasNullKey1;
+                    materializationContext1 = new MaterializationContext(
+                        [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                        queryContext.Context
+                    );
+                    instance1 = default(User);
+                    entry1 = queryContext.TryGetEntry(
+                        key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindPrimaryKey()], 
+                        keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                        throwOnNullKey: True, 
+                        hasNullKey: hasNullKey1);
+                    !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                    {
+                        entityType1 = entry1.EntityType;
+                        return instance1 = (User)entry1.Entity;
+                    } : 
+                    {
+                        ISnapshot shadowSnapshot1;
+                        shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                        entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")];
+                        instance1 = switch (entityType1)
+                        {
+                            case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]: 
+                                {
+                                    return 
+                                    {
+                                        User instance;
+                                        instance = new User();
+                                        instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                        instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                        instance.<CreatedBy>k__BackingField = (string)dataReader.GetFieldValue<object>(2);
+                                        instance.<Email>k__BackingField = (string)dataReader.GetFieldValue<object>(3);
+                                        instance.<EmailVerificationCodeExpires>k__BackingField = dataReader.IsDBNull(4) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(4);
+                                        instance.<EmailVerificationCodeHash>k__BackingField = dataReader.IsDBNull(5) ? default(string) : (string)dataReader.GetFieldValue<object>(5);
+                                        instance.<IsDeleted>k__BackingField = dataReader.GetBoolean(6);
+                                        instance.<IsEmailConfirmed>k__BackingField = dataReader.GetBoolean(7);
+                                        instance.<LastVerificationSentAt>k__BackingField = dataReader.IsDBNull(8) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(8);
+                                        instance.<Password>k__BackingField = (string)dataReader.GetFieldValue<object>(9);
+                                        instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(10) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(10);
+                                        instance.<Username>k__BackingField = (string)dataReader.GetFieldValue<object>(11);
+                                        (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                            context: materializationContext1.Context, 
+                                            entity: instance, 
+                                            queryTrackingBehavior: TrackAll, 
+                                            structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]) : default(void);
+                                        return instance;
+                                    }}
+                            default: 
+                                default(User)
+                        }
+                        ;
+                        entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                            entityType: entityType1, 
+                            entity: instance1, 
+                            snapshot: shadowSnapshot1);
+                        return instance1;
+                    } : default(void);
+                    return instance1;
+                };
+                resultContext.Values = new object[]{ entity };
+                ShaperProcessingExpressionVisitor.InitializeIncludeCollection<User, User>(
+                    collectionId: 0, 
+                    queryContext: queryContext, 
+                    dbDataReader: dataReader, 
+                    resultCoordinator: resultCoordinator, 
+                    entity: (User)(resultContext.Values[0]), 
+                    parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                    outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                    navigation: [LIFTABLE Constant: Navigation: User.UserRoles (ICollection<UserRole>) Collection ToDependent UserRole Inverse: User | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles")], 
+                    clrCollectionAccessor: [LIFTABLE Constant: ClrICollectionAccessor<User, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles").GetCollectionAccessor()], 
+                    trackingQuery: True, 
+                    setLoaded: True);
+            } : default(void);
+            ShaperProcessingExpressionVisitor.PopulateIncludeCollection<User, UserRole>(
+                collectionId: 0, 
+                queryContext: queryContext, 
+                dbDataReader: dataReader, 
+                resultCoordinator: resultCoordinator, 
+                parentIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                outerIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]{ (object)(int?)dataReader.GetInt32(0) }], 
+                selfIdentifier: [LIFTABLE Constant: Func<QueryContext, DbDataReader, object[]> | Resolver: _ => (queryContext, dataReader) => new object[]
+                { 
+                    (object)dataReader.IsDBNull(12) ? default(int?) : (int?)dataReader.GetInt32(12), 
+                    (object)dataReader.IsDBNull(13) ? default(int?) : (int?)dataReader.GetInt32(13), 
+                    (object)dataReader.IsDBNull(19) ? default(int?) : (int?)dataReader.GetInt32(19) 
+                }], 
+                parentIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (int)left == (int)right }], 
+                outerIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]{ (left, right) => left == null ? right == null : right != null && (int)left == (int)right }], 
+                selfIdentifierValueComparers: [LIFTABLE Constant: Func<object, object, bool>[] { Func<object, object, bool>, Func<object, object, bool>, Func<object, object, bool> } | Resolver: _ => new Func<object, object, bool>[]
+                { 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right, 
+                    (left, right) => left == null ? right == null : right != null && (int)left == (int)right 
+                }], 
+                innerShaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+                {
+                    UserRole entity;
+                    Role entity;
+                    entity = 
+                    {
+                        MaterializationContext materializationContext2;
+                        IEntityType entityType2;
+                        UserRole instance2;
+                        InternalEntityEntry entry2;
+                        bool hasNullKey2;
+                        materializationContext2 = new MaterializationContext(
+                            [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                            queryContext.Context
+                        );
+                        instance2 = default(UserRole);
+                        entry2 = queryContext.TryGetEntry(
+                            key: [LIFTABLE Constant: Key: UserRole.UserId, UserRole.RoleId PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindPrimaryKey()], 
+                            keyValues: new object[]
+                            { 
+                                dataReader.IsDBNull(12) ? default(object) : (object)dataReader.GetInt32(12), 
+                                dataReader.IsDBNull(13) ? default(object) : (object)dataReader.GetInt32(13) 
+                            }, 
+                            throwOnNullKey: False, 
+                            hasNullKey: hasNullKey2);
+                        !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+                        {
+                            entityType2 = entry2.EntityType;
+                            return instance2 = (UserRole)entry2.Entity;
+                        } : 
+                        {
+                            ISnapshot shadowSnapshot2;
+                            shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                            entityType2 = [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")];
+                            instance2 = switch (entityType2)
+                            {
+                                case [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")]: 
+                                    {
+                                        return 
+                                        {
+                                            UserRole instance;
+                                            instance = new UserRole();
+                                            instance.<UserId>k__BackingField = dataReader.IsDBNull(12) ? default(int) : dataReader.GetInt32(12);
+                                            instance.<RoleId>k__BackingField = dataReader.IsDBNull(13) ? default(int) : dataReader.GetInt32(13);
+                                            instance.<CreatedAt>k__BackingField = dataReader.IsDBNull(14) ? default(DateTime) : dataReader.GetDateTime(14);
+                                            instance.<CreatedBy>k__BackingField = dataReader.IsDBNull(15) ? default(string) : (string)dataReader.GetFieldValue<object>(15);
+                                            instance.<Id>k__BackingField = dataReader.IsDBNull(16) ? default(int) : dataReader.GetInt32(16);
+                                            instance.<IsDeleted>k__BackingField = dataReader.IsDBNull(17) ? default(bool) : dataReader.GetBoolean(17);
+                                            instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(18) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(18);
+                                            (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                                context: materializationContext2.Context, 
+                                                entity: instance, 
+                                                queryTrackingBehavior: TrackAll, 
+                                                structuralType: [LIFTABLE Constant: EntityType: UserRole | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole")]) : default(void);
+                                            return instance;
+                                        }}
+                                default: 
+                                    default(UserRole)
+                            }
+                            ;
+                            entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                                entityType: entityType2, 
+                                entity: instance2, 
+                                snapshot: shadowSnapshot2);
+                            return instance2;
+                        } : default(void);
+                        return instance2;
+                    };
+                    entity = 
+                    {
+                        MaterializationContext materializationContext3;
+                        IEntityType entityType3;
+                        Role instance3;
+                        InternalEntityEntry entry3;
+                        bool hasNullKey3;
+                        materializationContext3 = new MaterializationContext(
+                            [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                            queryContext.Context
+                        );
+                        instance3 = default(Role);
+                        entry3 = queryContext.TryGetEntry(
+                            key: [LIFTABLE Constant: Key: Role.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindPrimaryKey()], 
+                            keyValues: new object[]{ dataReader.IsDBNull(19) ? default(object) : (object)dataReader.GetInt32(19) }, 
+                            throwOnNullKey: False, 
+                            hasNullKey: hasNullKey3);
+                        !(hasNullKey3) ? entry3 != default(InternalEntityEntry) ? 
+                        {
+                            entityType3 = entry3.EntityType;
+                            return instance3 = (Role)entry3.Entity;
+                        } : 
+                        {
+                            ISnapshot shadowSnapshot3;
+                            shadowSnapshot3 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                            entityType3 = [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")];
+                            instance3 = switch (entityType3)
+                            {
+                                case [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]: 
+                                    {
+                                        return 
+                                        {
+                                            Role instance;
+                                            instance = new Role();
+                                            instance.<Id>k__BackingField = dataReader.IsDBNull(19) ? default(int) : dataReader.GetInt32(19);
+                                            instance.<CreatedAt>k__BackingField = dataReader.IsDBNull(20) ? default(DateTime) : dataReader.GetDateTime(20);
+                                            instance.<CreatedBy>k__BackingField = dataReader.IsDBNull(21) ? default(string) : (string)dataReader.GetFieldValue<object>(21);
+                                            instance.<IsDeleted>k__BackingField = dataReader.IsDBNull(22) ? default(bool) : dataReader.GetBoolean(22);
+                                            instance.<Name>k__BackingField = dataReader.IsDBNull(23) ? default(string) : (string)dataReader.GetFieldValue<object>(23);
+                                            instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(24) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(24);
+                                            (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                                context: materializationContext3.Context, 
+                                                entity: instance, 
+                                                queryTrackingBehavior: TrackAll, 
+                                                structuralType: [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{11} => namelessParameter{11}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]) : default(void);
+                                            return instance;
+                                        }}
+                                default: 
+                                    default(Role)
+                            }
+                            ;
+                            entry3 = entityType3 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                                entityType: entityType3, 
+                                entity: instance3, 
+                                snapshot: shadowSnapshot3);
+                            return instance3;
+                        } : default(void);
+                        return instance3;
+                    };
+                    ShaperProcessingExpressionVisitor.IncludeReference<UserRole, UserRole, Role>(
+                        queryContext: queryContext, 
+                        entity: entity, 
+                        relatedEntity: entity, 
+                        navigation: [LIFTABLE Constant: Navigation: UserRole.Role (Role) ToPrincipal Role Inverse: UserRoles | Resolver: namelessParameter{12} => namelessParameter{12}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindNavigation("Role")], 
+                        inverseNavigation: [LIFTABLE Constant: Navigation: Role.UserRoles (ICollection<UserRole>) Collection ToDependent UserRole Inverse: Role | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindNavigation("UserRoles")], 
+                        fixup: (namelessParameter{14}, namelessParameter{15}) => 
+                        {
+                            namelessParameter{14}.<Role>k__BackingField = namelessParameter{15};
+                            return [LIFTABLE Constant: ClrICollectionAccessor<Role, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{16} => namelessParameter{16}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindNavigation("UserRoles").GetCollectionAccessor()].Add(
+                                entity: namelessParameter{15}, 
+                                value: namelessParameter{14}, 
+                                forMaterialization: True);
+                        }, 
+                        trackingQuery: True);
+                    return entity;
+                }, 
+                inverseNavigation: [LIFTABLE Constant: Navigation: UserRole.User (User) ToPrincipal User Inverse: UserRoles | Resolver: namelessParameter{17} => namelessParameter{17}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.UserRole").FindNavigation("User")], 
+                fixup: (namelessParameter{18}, namelessParameter{19}) => 
+                {
+                    [LIFTABLE Constant: ClrICollectionAccessor<User, ICollection<UserRole>, UserRole> | Resolver: namelessParameter{20} => namelessParameter{20}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindNavigation("UserRoles").GetCollectionAccessor()].Add(
+                        entity: namelessParameter{18}, 
+                        value: namelessParameter{19}, 
+                        forMaterialization: True);
+                    return namelessParameter{19}.<User>k__BackingField = namelessParameter{18};
+                }, 
+                trackingQuery: True);
+            return IsTrue(resultCoordinator.ResultReady)
+             ? (User)(resultContext.Values[0]) : default(User);
+        }, 
+        contextType: ToDo.Data.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-09-17 14:31:58.0721 | DEBUG | Creating DbConnection. 
+2025-09-17 14:31:58.1262 | DEBUG | Created DbConnection. (42ms). 
+2025-09-17 14:31:58.1262 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 14:31:58.5692 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 14:31:58.5692 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-17 14:31:58.5952 | DEBUG | Created DbCommand for 'ExecuteReader' (8ms). 
+2025-09-17 14:31:58.6132 | DEBUG | Initialized DbCommand for 'ExecuteReader' (37ms). 
+2025-09-17 14:31:58.6361 | DEBUG | Executing DbCommand [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 14:31:58.9419 | DEBUG | Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 14:31:59.0674 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 14:31:59.0674 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 195ms reading results. 
+2025-09-17 14:31:59.0908 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 14:31:59.1024 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (11ms). 
+2025-09-17 14:31:59.3479 | DEBUG | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-17 14:31:59.3479 | DEBUG | No information found on request to perform content negotiation. 
+2025-09-17 14:31:59.3479 | DEBUG | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-17 14:31:59.3479 | DEBUG | Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-17 14:31:59.3638 | DEBUG | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-09-17 14:31:59.3978 | DEBUG | Connection id "0HNFLRN6QGE1N" completed keep alive response. 
+2025-09-17 14:31:59.3978 | DEBUG | 'AppDbContext' disposed. 
+2025-09-17 14:31:59.3978 | DEBUG | Disposing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-17 14:31:59.4150 | DEBUG | Disposed connection to database '' on server '' (2ms). 
+2025-09-17 14:34:10.5749 | DEBUG | Connection id "0HNFLRN6QGE1N" disconnecting. 
+2025-09-17 14:34:10.5749 | DEBUG | Connection id "0HNFLRN6QGE1N" stopped. 
+2025-09-17 14:34:10.5788 | DEBUG | Connection id "0HNFLRN6QGE1N" sending FIN because: "The Socket transport's send loop completed gracefully." 
