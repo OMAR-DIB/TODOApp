@@ -1,13 +1,13 @@
-﻿namespace ToDo.API.Dtos.Response
-{
-    public class ResponseTaskDto
-    {
+﻿//namespace ToDo.API.Dtos.Response
+//{
+//    public class ResponseTaskDto
+//    {
 
 
-        public int Id { get; set; }
-        public String Title { get; set; } = string.Empty;
-        public String Description { get; set; } = string.Empty;
-        public DateOnly ToDoAt { get; set; }
-        public DateTime CreatedAt { get; set; }
-    }
-}
+//        public int Id { get; set; }
+//        public String Title { get; set; } = string.Empty;
+//        public String Description { get; set; } = string.Empty;
+//        public DateOnly ToDoAt { get; set; }
+//        public DateTime CreatedAt { get; set; }
+//    }
+//}

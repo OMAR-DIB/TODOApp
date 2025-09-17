@@ -1,18 +1,27 @@
 
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.IdentityModel.Tokens;
 using NLog;
 using NLog.Extensions.Logging;
+using NLog.Web;
 using System.Text;
 using ToDo.API.ClaimProvider;
+using ToDo.API.Dtos.NotificationDtos;
+using ToDo.API.Dtos.SubTaskDtos;
+using ToDo.API.Dtos.ToDosDtos;
 using ToDo.API.middelware;
 using ToDo.API.Services;
 using ToDo.API.Services.EmailServices;
+using ToDo.API.Services.NotificationServices;
+using ToDo.API.Services.SubTaskServices;
+using ToDo.API.Services.ToDoServices;
 using ToDo.API.Services.TokenServices;
 using ToDo.API.Services.UserServices;
+using ToDo.API.Validators;
 using ToDo.Data.DI;
 using ToDo.Data.Repositories;
-using NLog.Web;
 
 namespace ToDo.API
 {
@@ -34,14 +43,33 @@ namespace ToDo.API
                 builder.Services.AddMyApplicationDbContext(mssqlSection);
                 ///////////////////////
                 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-                builder.Services.AddScoped<IToDosServices, ToDosServices>();
+                //builder.Services.AddScoped<IToDosServices, ToDosServices>();
                 builder.Services.AddScoped<IUserServices, UserServices>();
                 builder.Services.AddControllers();
                 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
                 builder.Services.AddOpenApi();
-                builder.Logging.ClearProviders();   // ant
+                //builder.Logging.ClearProviders();   // ant
                 builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
                 builder.Host.UseNLog();
+
+                // ToDos Validators
+                builder.Services.AddScoped<IValidator<CreateToDosRequestDto>, CreateToDosValidator>();
+                builder.Services.AddScoped<IValidator<UpdateToDosRequestDto>, UpdateToDosValidator>();
+
+                // SubTask Validators
+                builder.Services.AddScoped<IValidator<CreateSubTaskRequestDto>, CreateSubTaskValidator>();
+                builder.Services.AddScoped<IValidator<UpdateSubTaskRequestDto>, UpdateSubTaskValidator>();
+
+                // Notification Validators
+                builder.Services.AddScoped<IValidator<CreateNotificationRequestDto>, CreateNotificationValidator>();
+                builder.Services.AddScoped<IValidator<UpdateNotificationRequestDto>, UpdateNotificationValidator>();
+                builder.Services.AddScoped<IValidator<MarkAsReadRequestDto>, MarkAsReadValidator>();
+
+                // Register Services
+                builder.Services.AddScoped<IToDoService, ToDoService>();
+                builder.Services.AddScoped<ISubTaskService, SubTaskService>();
+                builder.Services.AddScoped<INotificationService, NotificationService>();
+
 
 
                 builder.Services.AddTransient<IEmailService, EmailService>();
@@ -84,14 +112,25 @@ namespace ToDo.API
 
                 builder.Services.AddAuthorization();
 
+                builder.Services.AddEndpointsApiExplorer();
+                builder.Services.AddSwaggerGen(c =>
+                {
+                    c.CustomSchemaIds(type => type.FullName);
+                });
                 var app = builder.Build();
 
                 // Configure the HTTP request pipeline.
                 app.UseMiddleware<AuthLoggingMiddleware>();
                 if (app.Environment.IsDevelopment())
                 {
+                    app.UseSwagger();
+                    app.UseSwaggerUI(c =>
+                    {
+                        c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDo.API v1");
+                    });
                     app.MapOpenApi();
                 }
+                
 
                 app.UseHttpsRedirection();
 

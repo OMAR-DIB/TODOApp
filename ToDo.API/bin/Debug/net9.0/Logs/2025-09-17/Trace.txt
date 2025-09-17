@@ -32,3 +32,509 @@
 2025-09-17 14:31:59.3638 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
 2025-09-17 14:31:59.3638 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
 2025-09-17 14:31:59.3638 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:43:16.8345 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 1 with length 428 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:16.8616 | TRACE | Connection id "0HNFM26NG778E" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:43:17.0669 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:17.1573 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2025-09-17 20:43:24.1586 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 3 with length 31 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.1586 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.1744 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 3 with length 53 and flags END_STREAM, END_HEADERS. 
+2025-09-17 20:43:24.1911 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 5 with length 38 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.1911 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 5 with length 116 and flags END_HEADERS. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 5 with length 717 and flags NONE. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 5 with length 357 and flags NONE. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 5 with length 83 and flags NONE. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.2669 | TRACE | Connection id "0HNFM26NG778E" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 7 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 9 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 11 with length 59 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 13 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.3408 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 15 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 17 with length 53 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:24.3408 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 15 with length 77 and flags END_HEADERS. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 15 with length 3179 and flags NONE. 
+2025-09-17 20:43:24.3408 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 17 with length 60 and flags END_HEADERS. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 17 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 17 with length 117 and flags NONE. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 9 with length 58 and flags END_HEADERS. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 9 with length 152 and flags END_STREAM. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 13 with length 62 and flags END_HEADERS. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3480 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 5324 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 7 with length 46 and flags END_HEADERS. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 7 with length 7263 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 11 with length 47 and flags END_HEADERS. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 8380 and flags NONE. 
+2025-09-17 20:43:24.3580 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:24.8369 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 19 with length 34 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:25.2327 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 19 with length 149 and flags END_HEADERS. 
+2025-09-17 20:43:25.2327 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 9986 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 10240 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 1806 and flags NONE. 
+2025-09-17 20:43:25.2344 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 19 with length 0 and flags END_STREAM. 
+2025-09-17 20:43:25.2994 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 21 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:25.2994 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:25.3149 | TRACE | Connection id "0HNFM26NG778E" received HEADERS frame for stream ID 23 with length 98 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:43:25.3149 | TRACE | All hosts are allowed. 
+2025-09-17 20:43:25.3149 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 23 with length 83 and flags END_HEADERS. 
+2025-09-17 20:43:25.3149 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 23 with length 628 and flags END_STREAM. 
+2025-09-17 20:43:25.3813 | TRACE | Connection id "0HNFM26NG778E" sending HEADERS frame for stream ID 21 with length 30 and flags END_HEADERS. 
+2025-09-17 20:43:25.3813 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 21 with length 7244 and flags NONE. 
+2025-09-17 20:43:25.3813 | TRACE | Connection id "0HNFM26NG778E" sending DATA frame for stream ID 21 with length 0 and flags END_STREAM. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:44:51.7990 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 1 with length 385 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:44:51.8174 | TRACE | Connection id "0HNFM27JQ12I1" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:44:51.8311 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 1 with length 98 and flags END_HEADERS. 
+2025-09-17 20:44:51.8311 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 1 with length 16384 and flags NONE. 
+2025-09-17 20:44:51.8311 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 1 with length 117 and flags NONE. 
+2025-09-17 20:44:51.8311 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 20:44:52.2475 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 3 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 3 with length 149 and flags END_HEADERS. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 9986 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 1806 and flags NONE. 
+2025-09-17 20:44:52.3051 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-17 20:44:52.5007 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 5 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:44:52.5007 | TRACE | All hosts are allowed. 
+2025-09-17 20:44:52.6554 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 5 with length 30 and flags END_HEADERS. 
+2025-09-17 20:44:52.6554 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 5 with length 7244 and flags NONE. 
+2025-09-17 20:44:52.6554 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 7 with length 53 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 7 with length 43 and flags END_HEADERS. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 7 with length 117 and flags NONE. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-09-17 20:45:10.0474 | TRACE | Connection id "0HNFM27JQ12I1" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:45:10.0641 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 9 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:45:10.0641 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 9 with length 66 and flags END_HEADERS. 
+2025-09-17 20:45:10.0641 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 9986 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 1806 and flags NONE. 
+2025-09-17 20:45:10.0768 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-09-17 20:45:10.1499 | TRACE | Connection id "0HNFM27JQ12I1" received HEADERS frame for stream ID 11 with length 41 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:45:10.1499 | TRACE | All hosts are allowed. 
+2025-09-17 20:45:10.1727 | TRACE | Connection id "0HNFM27JQ12I1" sending HEADERS frame for stream ID 11 with length 4 and flags END_HEADERS. 
+2025-09-17 20:45:10.1727 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 11 with length 7244 and flags NONE. 
+2025-09-17 20:45:10.1727 | TRACE | Connection id "0HNFM27JQ12I1" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-17 20:46:33.1648 | TRACE | Connection id "0HNFM28I0KQPI" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:46:33.1739 | TRACE | Connection id "0HNFM28I0KQPI" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:46:33.1739 | TRACE | Connection id "0HNFM28I0KQPI" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:46:33.1739 | TRACE | Connection id "0HNFM28I0KQPI" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:46:33.1739 | TRACE | Connection id "0HNFM28I0KQPI" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:46:33.1739 | TRACE | Connection id "0HNFM28I0KQPI" received HEADERS frame for stream ID 1 with length 482 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:46:33.1937 | TRACE | Connection id "0HNFM28I0KQPI" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:46:33.2687 | TRACE | All hosts are allowed. 
+2025-09-17 20:46:33.3436 | TRACE | Connection id "0HNFM28I0KQPI" sending HEADERS frame for stream ID 1 with length 154 and flags END_HEADERS. 
+2025-09-17 20:46:33.3436 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 1 with length 717 and flags NONE. 
+2025-09-17 20:46:33.3436 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 1 with length 440 and flags NONE. 
+2025-09-17 20:46:33.3436 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 20:46:33.4185 | TRACE | Connection id "0HNFM28I0KQPI" received HEADERS frame for stream ID 3 with length 116 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:46:33.4185 | TRACE | Connection id "0HNFM28I0KQPI" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:46:33.4244 | TRACE | Connection id "0HNFM28I0KQPI" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2025-09-17 20:46:33.4244 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-09-17 20:46:33.4244 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 5 with length 117 and flags NONE. 
+2025-09-17 20:46:33.4244 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending HEADERS frame for stream ID 3 with length 149 and flags END_HEADERS. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 9986 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 10240 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 1806 and flags NONE. 
+2025-09-17 20:46:33.4438 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-17 20:46:33.5592 | TRACE | Connection id "0HNFM28I0KQPI" received HEADERS frame for stream ID 7 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:46:33.5592 | TRACE | All hosts are allowed. 
+2025-09-17 20:46:33.6875 | TRACE | Connection id "0HNFM28I0KQPI" sending HEADERS frame for stream ID 7 with length 30 and flags END_HEADERS. 
+2025-09-17 20:46:33.6875 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 7 with length 7244 and flags NONE. 
+2025-09-17 20:46:33.6875 | TRACE | Connection id "0HNFM28I0KQPI" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-09-17 20:47:23.7186 | TRACE | All hosts are allowed. 
+2025-09-17 20:47:23.7337 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:47:24.5309 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:24.5309 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:24.5309 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:24.5309 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:24.5309 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ss0rd }) 
+2025-09-17 20:47:25.5205 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-17 20:47:25.5205 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-17 20:47:25.5205 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:25.5205 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:30.7783 | TRACE | All hosts are allowed. 
+2025-09-17 20:47:30.7803 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:47:30.8156 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:30.8156 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:30.8156 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:30.8156 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:30.8156 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ssw0rd }) 
+2025-09-17 20:47:31.0485 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:31.0485 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:47:31.0613 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:47:31.0613 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:31.0613 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:47:49.0330 | TRACE | All hosts are allowed. 
+2025-09-17 20:48:08.2876 | TRACE | All hosts are allowed. 
+2025-09-17 20:48:08.2876 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:48:08.4086 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:48:08.4086 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:08.4086 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:24.7002 | TRACE | All hosts are allowed. 
+2025-09-17 20:48:24.7017 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:48:24.7338 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:48:24.7338 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:24.7338 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:48:58.5522 | TRACE | All hosts are allowed. 
+2025-09-17 20:48:58.5522 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:49:03.4932 | TRACE | All hosts are allowed. 
+2025-09-17 20:49:03.4932 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:49:03.5192 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:03.5192 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:03.5192 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:03.5192 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:03.5192 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ssw0rd }) 
+2025-09-17 20:49:03.7003 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:03.7003 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:03.7003 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:03.7003 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:17.9074 | TRACE | All hosts are allowed. 
+2025-09-17 20:49:17.9074 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:49:17.9454 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:17.9454 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:17.9454 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:17.9454 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:17.9454 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ssw0rd }) 
+2025-09-17 20:49:18.1075 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:18.1075 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:18.1079 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:18.1079 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:18.1079 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:41.9782 | TRACE | All hosts are allowed. 
+2025-09-17 20:49:41.9782 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:49:41.9831 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:41.9831 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:41.9831 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:41.9831 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:42.1438 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:42.1857 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:49:42.1857 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:49:42.1857 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" received HEADERS frame for stream ID 1 with length 447 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:50:52.1244 | TRACE | Connection id "0HNFM28I0KQPL" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:50:52.1244 | TRACE | All hosts are allowed. 
+2025-09-17 20:50:52.2639 | TRACE | Connection id "0HNFM28I0KQPL" sending HEADERS frame for stream ID 1 with length 67 and flags END_HEADERS. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 16384 and flags NONE. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 16384 and flags NONE. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 16384 and flags NONE. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 371 and flags NONE. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 440 and flags NONE. 
+2025-09-17 20:50:52.2645 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" received HEADERS frame for stream ID 3 with length 119 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 3 with length 117 and flags NONE. 
+2025-09-17 20:50:52.4025 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending HEADERS frame for stream ID 5 with length 149 and flags END_HEADERS. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 1806 and flags NONE. 
+2025-09-17 20:50:52.4110 | TRACE | Connection id "0HNFM28I0KQPL" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 20:50:52.5337 | TRACE | Connection id "0HNFM28I0KQPL" received HEADERS frame for stream ID 7 with length 95 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:50:52.5337 | TRACE | All hosts are allowed. 
+2025-09-17 20:50:52.5337 | TRACE | Connection id "0HNFM28I0KQPL" sending HEADERS frame for stream ID 7 with length 7 and flags END_STREAM, END_HEADERS. 
+2025-09-17 20:52:14.4316 | TRACE | Connection id "0HNFM2BNMOD68" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:52:14.4376 | TRACE | Connection id "0HNFM2BNMOD68" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:52:14.4376 | TRACE | Connection id "0HNFM2BNMOD68" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:52:14.4376 | TRACE | Connection id "0HNFM2BNMOD68" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:52:14.4376 | TRACE | Connection id "0HNFM2BNMOD68" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:52:14.4376 | TRACE | Connection id "0HNFM2BNMOD68" received HEADERS frame for stream ID 1 with length 447 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:52:14.4740 | TRACE | Connection id "0HNFM2BNMOD68" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:52:14.6442 | TRACE | All hosts are allowed. 
+2025-09-17 20:52:14.9343 | TRACE | Connection id "0HNFM2BNMOD68" sending HEADERS frame for stream ID 1 with length 73 and flags END_HEADERS. 
+2025-09-17 20:52:14.9392 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9392 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9392 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 417 and flags NONE. 
+2025-09-17 20:52:14.9531 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 20:52:20.4285 | TRACE | Connection id "0HNFM2BNMOD68" received HEADERS frame for stream ID 3 with length 116 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:52:20.4285 | TRACE | Connection id "0HNFM2BNMOD68" sending HEADERS frame for stream ID 3 with length 90 and flags END_HEADERS. 
+2025-09-17 20:52:20.4285 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2025-09-17 20:52:20.4362 | TRACE | Connection id "0HNFM2BNMOD68" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:52:20.4362 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 3 with length 117 and flags NONE. 
+2025-09-17 20:52:20.4362 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-17 20:52:20.4362 | TRACE | Connection id "0HNFM2BNMOD68" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 1806 and flags NONE. 
+2025-09-17 20:52:20.4707 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 20:52:20.5203 | TRACE | Connection id "0HNFM2BNMOD68" received HEADERS frame for stream ID 7 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:52:20.5203 | TRACE | All hosts are allowed. 
+2025-09-17 20:52:20.5480 | TRACE | Connection id "0HNFM2BNMOD68" sending HEADERS frame for stream ID 7 with length 4 and flags END_HEADERS. 
+2025-09-17 20:52:20.5480 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-09-17 20:52:20.5480 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-09-17 20:52:20.5480 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 7 with length 417 and flags NONE. 
+2025-09-17 20:52:20.5480 | TRACE | Connection id "0HNFM2BNMOD68" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-09-17 20:54:33.1308 | TRACE | Connection id "0HNFM2BNMOD68" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-09-17 20:54:46.0166 | TRACE | All hosts are allowed. 
+2025-09-17 20:54:46.0310 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:54:46.7712 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:54:46.7712 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:54:46.7712 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:54:46.7712 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:54:46.7846 | TRACE | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) with arguments (CreateToDosRequestDto { Title = test, Description = fdsadas, ToDoAt = 9/17/2025 }) 
+2025-09-17 20:54:47.7523 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:54:47.7523 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:54:47.7523 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:54:47.7523 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:54:47.7523 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:54:47.7523 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:54:47.7652 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-17 20:54:47.7805 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-17 20:54:47.7805 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:54:47.7805 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:01.5649 | TRACE | All hosts are allowed. 
+2025-09-17 20:55:01.5649 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:55:01.5980 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:01.5980 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:01.5980 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:01.5980 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:55:01.6715 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:55:01.6715 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:01.6715 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" received HEADERS frame for stream ID 1 with length 374 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 20:55:27.5985 | TRACE | Connection id "0HNFM2BNMOD6B" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 20:55:27.5985 | TRACE | All hosts are allowed. 
+2025-09-17 20:55:27.5985 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:55:27.6739 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:27.6739 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:27.6739 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:27.6739 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:27.6739 | TRACE | Executing action method ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API) with arguments (1) 
+2025-09-17 20:55:27.7179 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:55:27.7179 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-17 20:55:27.7179 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:55:27.7179 | TRACE | Connection id "0HNFM2BNMOD6B" sending HEADERS frame for stream ID 1 with length 68 and flags END_HEADERS. 
+2025-09-17 20:55:27.7179 | TRACE | Connection id "0HNFM2BNMOD6B" sending DATA frame for stream ID 1 with length 43 and flags NONE. 
+2025-09-17 20:55:27.7179 | TRACE | Connection id "0HNFM2BNMOD6B" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 20:57:40.4704 | TRACE | Connection id "0HNFM2BNMOD6B" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-09-17 20:57:55.3644 | TRACE | All hosts are allowed. 
+2025-09-17 20:57:55.3644 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 20:57:55.3759 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:57:55.3759 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:57:55.3759 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:57:55.3759 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:57:55.3759 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ssw0rd }) 
+2025-09-17 20:57:55.5299 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:57:55.5299 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:57:55.5318 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-17 20:57:55.5318 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 20:57:55.5318 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 

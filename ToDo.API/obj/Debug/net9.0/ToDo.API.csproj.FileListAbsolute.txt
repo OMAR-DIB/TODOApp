@@ -172,3 +172,7 @@ C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NETCore.MailKit
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.Extensions.Logging.dll
 C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\NLog.Web.AspNetCore.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -58,3 +58,374 @@ ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId]
 2025-09-17 14:31:59.3871 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
 2025-09-17 14:31:59.3871 | INFO | Auth result: POST /api/user/login from ::1 - Status: 401 - ResponsePreview: {"message":"Invalid credentials or email not confirmed."} 
 2025-09-17 14:31:59.4219 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 401 - application/json;+charset=utf-8 4930.4557ms 
+2025-09-17 20:40:52.9270 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:40:53.0911 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:40:53.0911 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:40:53.1245 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:40:53.1245 | INFO | Hosting environment: Development 
+2025-09-17 20:40:53.1245 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:41:36.9070 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:41:37.0339 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:41:37.0339 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:41:37.0639 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:41:37.0639 | INFO | Hosting environment: Development 
+2025-09-17 20:41:37.0639 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:42:14.2726 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:42:14.4293 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:42:14.4293 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:42:14.4579 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:42:14.4579 | INFO | Hosting environment: Development 
+2025-09-17 20:42:14.4579 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:42:56.2495 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:42:56.3939 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:42:56.3939 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:42:56.4588 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:42:56.4588 | INFO | Hosting environment: Development 
+2025-09-17 20:42:56.4588 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:43:16.8752 | INFO | Request starting HTTP/2 GET https://localhost:7257/ - - - 
+2025-09-17 20:43:17.1573 | INFO | Request finished HTTP/2 GET https://localhost:7257/ - 404 0 - 289.9466ms 
+2025-09-17 20:43:17.1573 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7257/, Response status code: 404 
+2025-09-17 20:43:24.1586 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/ - - - 
+2025-09-17 20:43:24.1744 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/ - 301 0 - 18.3430ms 
+2025-09-17 20:43:24.1911 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - - 
+2025-09-17 20:43:24.2669 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 - text/html;charset=utf-8 79.4626ms 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui.css - - - 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/index.css - - - 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui-bundle.js - - - 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/swagger-ui-standalone-preset.js - - - 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/index.js - - - 
+2025-09-17 20:43:24.3408 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:43:24.3408 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/index.js - 200 - application/javascript;charset=utf-8 0.7163ms 
+2025-09-17 20:43:24.3480 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 9.8605ms 
+2025-09-17 20:43:24.3480 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/index.css - 200 152 text/css 16.1085ms 
+2025-09-17 20:43:24.3580 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui.css - 200 23647 text/css 22.7338ms 
+2025-09-17 20:43:24.3580 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui-standalone-preset.js - 200 70860 text/javascript 21.7026ms 
+2025-09-17 20:43:24.3580 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/swagger-ui-bundle.js - 200 417980 text/javascript 25.2876ms 
+2025-09-17 20:43:24.8369 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:43:25.2344 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 401.9943ms 
+2025-09-17 20:43:25.2994 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:43:25.3149 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/favicon-32x32.png - - - 
+2025-09-17 20:43:25.3149 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/favicon-32x32.png - 200 628 image/png 0.8750ms 
+2025-09-17 20:43:25.3813 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 500 - text/plain;+charset=utf-8 87.7278ms 
+2025-09-17 20:44:38.9606 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:44:39.1020 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:44:39.1020 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:44:39.1857 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:44:39.1857 | INFO | Hosting environment: Development 
+2025-09-17 20:44:39.1857 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:44:51.8174 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:44:51.8311 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 10.2040ms 
+2025-09-17 20:44:52.2475 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:44:52.3051 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 61.5824ms 
+2025-09-17 20:44:52.5007 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:44:52.6554 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 500 - text/plain;+charset=utf-8 159.2148ms 
+2025-09-17 20:45:10.0474 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:45:10.0474 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 1.3040ms 
+2025-09-17 20:45:10.0641 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:45:10.0768 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 15.8895ms 
+2025-09-17 20:45:10.1499 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:45:10.1727 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 500 - text/plain;+charset=utf-8 25.2871ms 
+2025-09-17 20:46:29.8776 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:46:30.0117 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:46:30.0117 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:46:30.0550 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:46:30.0550 | INFO | Hosting environment: Development 
+2025-09-17 20:46:30.0550 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:46:33.2028 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - - - 
+2025-09-17 20:46:33.3436 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 - text/html;charset=utf-8 148.1989ms 
+2025-09-17 20:46:33.4185 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:46:33.4185 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:46:33.4244 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 7.1404ms 
+2025-09-17 20:46:33.4438 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 31.3346ms 
+2025-09-17 20:46:33.5592 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:46:33.6875 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 500 - text/plain;+charset=utf-8 132.1937ms 
+2025-09-17 20:47:23.7186 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 58 
+2025-09-17 20:47:23.7528 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:47:23.7766 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:47:23.8060 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 20:47:24.5309 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 20:47:25.3559 | INFO | Executed DbCommand (106ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 20:47:25.5205 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 975.9007ms. 
+2025-09-17 20:47:25.5205 | INFO | Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-09-17 20:47:25.5342 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 1721.7865ms 
+2025-09-17 20:47:25.5342 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:47:25.5342 | INFO | Auth result: POST /api/user/login from ::1 - Status: 401 - ResponsePreview: {"message":"Invalid credentials or email not confirmed."} 
+2025-09-17 20:47:25.5342 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 401 - application/json;+charset=utf-8 1820.6069ms 
+2025-09-17 20:47:30.7783 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 59 
+2025-09-17 20:47:30.7803 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:47:30.7803 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:47:30.7803 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 20:47:30.8156 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 20:47:30.8483 | INFO | Executed DbCommand (14ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 20:47:31.0485 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 228.3373ms. 
+2025-09-17 20:47:31.0485 | INFO | Executing OkObjectResult, writing value of type 'ToDo.API.Dtos.UserDtos.Login.LoginResponseDto'. 
+2025-09-17 20:47:31.0613 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 274.3353ms 
+2025-09-17 20:47:31.0613 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:47:31.0613 | INFO | Auth result: POST /api/user/login from ::1 - Status: 200 - ResponsePreview: {"accessToken":"[REDACTED]":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiIxIiwiVXNlck5hbWUiOiJ0ZXN0Iiwic3ViIjoidGVzdCIsImp0aSI6IjRmY2U2MjI2LTYzZmYtNDhjZC1hMDkzLWIzNjY3MzA2MjlmMCIsImlhdCI6MTc1ODEzMTI1MSwibmJmIjoxNzU4MTMxMjUxLCJleHAiOjE3NTgxMzQ4NTEsImlzcyI6IlRvRG9... 
+2025-09-17 20:47:31.0613 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 200 - application/json;+charset=utf-8 284.2165ms 
+2025-09-17 20:47:49.0330 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/ToDo - application/json 59 
+2025-09-17 20:47:49.0461 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/ToDo - 404 0 - 13.3654ms 
+2025-09-17 20:47:49.0461 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7257/api/ToDo, Response status code: 404 
+2025-09-17 20:48:08.2876 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/ToDos - application/json 59 
+2025-09-17 20:48:08.2876 | INFO | Executing endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:48:08.2968 | INFO | Route matched with {action = "GetAllToDos", controller = "ToDos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto]]] GetAllToDos() on controller ToDo.API.Controllers.ToDosController (ToDo.API). 
+2025-09-17 20:48:08.4086 | INFO | Executing action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) - Validation state: Valid 
+2025-09-17 20:48:08.4086 | INFO | Executed action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.7706ms. 
+2025-09-17 20:48:08.4086 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-09-17 20:48:08.4086 | INFO | Executed action ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) in 118.0638ms 
+2025-09-17 20:48:08.4086 | INFO | Executed endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:48:08.4086 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/ToDos - 500 - text/plain;+charset=utf-8 127.8471ms 
+2025-09-17 20:48:24.7002 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/ToDos - application/json 59 
+2025-09-17 20:48:24.7295 | INFO | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-17 20:48:24.7295 | INFO | Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details. 
+2025-09-17 20:48:24.7295 | INFO | Executing endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:48:24.7295 | INFO | Route matched with {action = "GetAllToDos", controller = "ToDos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto]]] GetAllToDos() on controller ToDo.API.Controllers.ToDosController (ToDo.API). 
+2025-09-17 20:48:24.7338 | INFO | Executing action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) - Validation state: Valid 
+2025-09-17 20:48:24.7338 | INFO | Executed action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1178ms. 
+2025-09-17 20:48:24.7338 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-09-17 20:48:24.7338 | INFO | Executed action ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) in 7.7018ms 
+2025-09-17 20:48:24.7338 | INFO | Executed endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:48:24.7338 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/ToDos - 500 - text/plain;+charset=utf-8 40.0511ms 
+2025-09-17 20:48:58.5522 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/user/login - application/json 59 
+2025-09-17 20:48:58.5522 | INFO | Auth attempt: GET /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:48:58.5522 | INFO | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-17 20:48:58.5522 | INFO | Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details. 
+2025-09-17 20:48:58.5522 | INFO | Executing endpoint '405 HTTP Method Not Supported' 
+2025-09-17 20:48:58.5522 | INFO | Executed endpoint '405 HTTP Method Not Supported' 
+2025-09-17 20:48:58.5522 | INFO | Auth result: GET /api/user/login from ::1 - Status: 405 - ResponsePreview:  
+2025-09-17 20:48:58.5522 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/user/login - 405 0 - 7.6201ms 
+2025-09-17 20:49:03.4932 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 59 
+2025-09-17 20:49:03.4932 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:49:03.4932 | INFO | Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-17 20:49:03.4932 | INFO | Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'YzeYuVHnCefZAYb-81zVcPRme0joIBSSq_UuWqYwJ8U'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details. 
+2025-09-17 20:49:03.4932 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:49:03.5192 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 20:49:03.5192 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 20:49:03.5677 | INFO | Executed DbCommand (20ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 20:49:03.7003 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 173.286ms. 
+2025-09-17 20:49:03.7003 | INFO | Executing OkObjectResult, writing value of type 'ToDo.API.Dtos.UserDtos.Login.LoginResponseDto'. 
+2025-09-17 20:49:03.7003 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 181.1695ms 
+2025-09-17 20:49:03.7003 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:49:03.7003 | INFO | Auth result: POST /api/user/login from ::1 - Status: 200 - ResponsePreview: {"accessToken":"[REDACTED]":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiIxIiwiVXNlck5hbWUiOiJ0ZXN0Iiwic3ViIjoidGVzdCIsImp0aSI6ImY1YjhmNTI5LTFmMjktNDUyOC1iNWFlLWQ0ZWU4YjliOTdjOCIsImlhdCI6MTc1ODEzMTM0MywibmJmIjoxNzU4MTMxMzQzLCJleHAiOjE3NTgxMzQ5NDMsImlzcyI6IlRvRG9... 
+2025-09-17 20:49:03.7003 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 200 - application/json;+charset=utf-8 208.3481ms 
+2025-09-17 20:49:17.9074 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 59 
+2025-09-17 20:49:17.9074 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:49:17.9454 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:49:17.9454 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 20:49:17.9454 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 20:49:17.9619 | INFO | Executed DbCommand (11ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 20:49:18.1075 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 157.8262ms. 
+2025-09-17 20:49:18.1079 | INFO | Executing OkObjectResult, writing value of type 'ToDo.API.Dtos.UserDtos.Login.LoginResponseDto'. 
+2025-09-17 20:49:18.1079 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 160.6062ms 
+2025-09-17 20:49:18.1079 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:49:18.1079 | INFO | Auth result: POST /api/user/login from ::1 - Status: 200 - ResponsePreview: {"accessToken":"[REDACTED]":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiIxIiwiVXNlck5hbWUiOiJ0ZXN0Iiwic3ViIjoidGVzdCIsImp0aSI6IjVlN2E3MDA5LWQxZTAtNDUxZC05ZThiLTA2ZDE4NmYxYzVlNCIsImlhdCI6MTc1ODEzMTM1OCwibmJmIjoxNzU4MTMxMzU4LCJleHAiOjE3NTgxMzQ5NTgsImlzcyI6IlRvRG9... 
+2025-09-17 20:49:18.1079 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 200 - application/json;+charset=utf-8 201.9920ms 
+2025-09-17 20:49:41.9782 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/ToDos - application/json 59 
+2025-09-17 20:49:41.9831 | INFO | Executing endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:49:41.9831 | INFO | Route matched with {action = "GetAllToDos", controller = "ToDos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto]]] GetAllToDos() on controller ToDo.API.Controllers.ToDosController (ToDo.API). 
+2025-09-17 20:49:41.9831 | INFO | Executing action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) - Validation state: Valid 
+2025-09-17 20:49:42.1438 | INFO | Executed DbCommand (30ms) [Parameters=[@__userId_Value_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[CreatedBy], [t].[Description], [t].[IsDeleted], [t].[Status], [t].[Title], [t].[ToDoAt], [t].[UpdatedAt], [t].[UserId], [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username], [s].[Id], [s].[CreatedAt], [s].[CreatedBy], [s].[IsDeleted], [s].[Status], [s].[Title], [s].[ToDoId], [s].[UpdatedAt]
+FROM [ToDos] AS [t]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+LEFT JOIN [SubTasks] AS [s] ON [t].[Id] = [s].[ToDoId]
+WHERE [t].[UserId] = @__userId_Value_0 AND [t].[IsDeleted] = CAST(0 AS bit) AND [t].[IsDeleted] = CAST(0 AS bit) AND [t].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [t].[Id], [u].[Id] 
+2025-09-17 20:49:42.1438 | INFO | Executed action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 152.148ms. 
+2025-09-17 20:49:42.1438 | INFO | Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+OrderedIterator`2[[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto, ToDo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-09-17 20:49:42.1857 | INFO | Executed action ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) in 200.3304ms 
+2025-09-17 20:49:42.1857 | INFO | Executed endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:49:42.1857 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/ToDos - 200 - application/json;+charset=utf-8 208.3329ms 
+2025-09-17 20:50:52.1244 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:50:52.2645 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 500 - text/html;+charset=utf-8 136.5553ms 
+2025-09-17 20:50:52.4025 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:50:52.4025 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:50:52.4025 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 0.5994ms 
+2025-09-17 20:50:52.4110 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 12.7113ms 
+2025-09-17 20:50:52.5337 | INFO | Request starting HTTP/2 GET https://localhost:7257/favicon.ico - - - 
+2025-09-17 20:50:52.5337 | INFO | Request finished HTTP/2 GET https://localhost:7257/favicon.ico - 404 0 - 0.3685ms 
+2025-09-17 20:50:52.5337 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7257/favicon.ico, Response status code: 404 
+2025-09-17 20:52:06.0207 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 20:52:06.1551 | INFO | Now listening on: https://localhost:7257 
+2025-09-17 20:52:06.1551 | INFO | Now listening on: http://localhost:5292 
+2025-09-17 20:52:06.1963 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-17 20:52:06.1963 | INFO | Hosting environment: Development 
+2025-09-17 20:52:06.1963 | INFO | Content root path: C:\Users\User\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-17 20:52:14.4954 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:52:14.9848 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 474.1087ms 
+2025-09-17 20:52:20.4285 | INFO | Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 20:52:20.4362 | INFO | Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - - - 
+2025-09-17 20:52:20.4362 | INFO | Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 8.4297ms 
+2025-09-17 20:52:20.4707 | INFO | Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 41.3263ms 
+2025-09-17 20:52:20.5203 | INFO | Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - - - 
+2025-09-17 20:52:20.5480 | INFO | Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 27.9633ms 
+2025-09-17 20:54:46.0166 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/ToDos - application/json 79 
+2025-09-17 20:54:46.1026 | INFO | Executing endpoint 'ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API)' 
+2025-09-17 20:54:46.1189 | INFO | Route matched with {action = "CreateToDo", controller = "ToDos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto]] CreateToDo(ToDo.API.Dtos.ToDosDtos.CreateToDosRequestDto) on controller ToDo.API.Controllers.ToDosController (ToDo.API). 
+2025-09-17 20:54:46.7846 | INFO | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) - Validation state: Valid 
+2025-09-17 20:54:47.2990 | INFO | Executed DbCommand (48ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Id] = @__userId_0 AND [u].[IsDeleted] = CAST(0 AS bit)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-17 20:54:47.5001 | INFO | Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 500), @p3='?' (DbType = Boolean), @p4='?' (DbType = Int32), @p5='?' (Size = 200), @p6='?' (DbType = Date), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ToDos] ([CreatedAt], [CreatedBy], [Description], [IsDeleted], [Status], [Title], [ToDoAt], [UpdatedAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8); 
+2025-09-17 20:54:47.7103 | INFO | Executed DbCommand (38ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [s0].[Id], [s0].[CreatedAt], [s0].[CreatedBy], [s0].[Description], [s0].[IsDeleted], [s0].[Status], [s0].[Title], [s0].[ToDoAt], [s0].[UpdatedAt], [s0].[UserId], [s0].[Id0], [s0].[CreatedAt0], [s0].[CreatedBy0], [s0].[Email], [s0].[EmailVerificationCodeExpires], [s0].[EmailVerificationCodeHash], [s0].[IsDeleted0], [s0].[IsEmailConfirmed], [s0].[LastVerificationSentAt], [s0].[Password], [s0].[UpdatedAt0], [s0].[Username], [s].[Id], [s].[CreatedAt], [s].[CreatedBy], [s].[IsDeleted], [s].[Status], [s].[Title], [s].[ToDoId], [s].[UpdatedAt]
+FROM (
+    SELECT TOP(1) [t].[Id], [t].[CreatedAt], [t].[CreatedBy], [t].[Description], [t].[IsDeleted], [t].[Status], [t].[Title], [t].[ToDoAt], [t].[UpdatedAt], [t].[UserId], [u].[Id] AS [Id0], [u].[CreatedAt] AS [CreatedAt0], [u].[CreatedBy] AS [CreatedBy0], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted] AS [IsDeleted0], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt] AS [UpdatedAt0], [u].[Username]
+    FROM [ToDos] AS [t]
+    INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+    WHERE CAST([t].[Id] AS bigint) = @__id_0 AND [t].[IsDeleted] = CAST(0 AS bit)
+) AS [s0]
+LEFT JOIN [SubTasks] AS [s] ON [s0].[Id] = [s].[ToDoId]
+ORDER BY [s0].[Id], [s0].[Id0] 
+2025-09-17 20:54:47.7523 | INFO | Todo created successfully with ID: 1 for user: 1 
+2025-09-17 20:54:47.7523 | INFO | Executed action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 969.6259ms. 
+2025-09-17 20:54:47.7652 | INFO | Executing CreatedAtActionResult, writing value of type 'ToDo.API.Dtos.ToDosDtos.ToDosResponseDto'. 
+2025-09-17 20:54:47.7998 | INFO | Executed action ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) in 1675.0833ms 
+2025-09-17 20:54:47.7998 | INFO | Executed endpoint 'ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API)' 
+2025-09-17 20:54:47.7998 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/ToDos - 201 - application/json;+charset=utf-8 1778.7816ms 
+2025-09-17 20:55:01.5649 | INFO | Request starting HTTP/1.1 GET https://localhost:7257/api/ToDos - application/json 79 
+2025-09-17 20:55:01.5772 | INFO | Executing endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:55:01.5772 | INFO | Route matched with {action = "GetAllToDos", controller = "ToDos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto]]] GetAllToDos() on controller ToDo.API.Controllers.ToDosController (ToDo.API). 
+2025-09-17 20:55:01.5980 | INFO | Executing action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) - Validation state: Valid 
+2025-09-17 20:55:01.6610 | INFO | Executed DbCommand (8ms) [Parameters=[@__userId_Value_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[CreatedBy], [t].[Description], [t].[IsDeleted], [t].[Status], [t].[Title], [t].[ToDoAt], [t].[UpdatedAt], [t].[UserId], [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username], [s].[Id], [s].[CreatedAt], [s].[CreatedBy], [s].[IsDeleted], [s].[Status], [s].[Title], [s].[ToDoId], [s].[UpdatedAt]
+FROM [ToDos] AS [t]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+LEFT JOIN [SubTasks] AS [s] ON [t].[Id] = [s].[ToDoId]
+WHERE [t].[UserId] = @__userId_Value_0 AND [t].[IsDeleted] = CAST(0 AS bit) AND [t].[IsDeleted] = CAST(0 AS bit) AND [t].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [t].[Id], [u].[Id] 
+2025-09-17 20:55:01.6715 | INFO | Executed action method ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 77.4755ms. 
+2025-09-17 20:55:01.6715 | INFO | Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+OrderedIterator`2[[ToDo.API.Dtos.ToDosDtos.ToDosResponseDto, ToDo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-09-17 20:55:01.6715 | INFO | Executed action ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API) in 95.6077ms 
+2025-09-17 20:55:01.6715 | INFO | Executed endpoint 'ToDo.API.Controllers.ToDosController.GetAllToDos (ToDo.API)' 
+2025-09-17 20:55:01.6715 | INFO | Request finished HTTP/1.1 GET https://localhost:7257/api/ToDos - 200 - application/json;+charset=utf-8 116.6789ms 
+2025-09-17 20:55:27.5985 | INFO | Request starting HTTP/2 GET https://localhost:7257/api/SubTasks/todo/1 - - - 
+2025-09-17 20:55:27.6114 | INFO | Executing endpoint 'ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API)' 
+2025-09-17 20:55:27.6114 | INFO | Route matched with {action = "GetSubTasksByToDo", controller = "SubTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ToDo.API.Dtos.SubTaskDtos.SubTaskResponseDto]]] GetSubTasksByToDo(Int32) on controller ToDo.API.Controllers.SubTasksController (ToDo.API). 
+2025-09-17 20:55:27.6739 | INFO | Executing action method ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API) - Validation state: Valid 
+2025-09-17 20:55:27.7179 | INFO | Executed action method ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 48.1347ms. 
+2025-09-17 20:55:27.7179 | INFO | Executing ObjectResult, writing value of type 'System.String'. 
+2025-09-17 20:55:27.7179 | INFO | Executed action ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API) in 111.6651ms 
+2025-09-17 20:55:27.7179 | INFO | Executed endpoint 'ToDo.API.Controllers.SubTasksController.GetSubTasksByToDo (ToDo.API)' 
+2025-09-17 20:55:27.7179 | INFO | Request finished HTTP/2 GET https://localhost:7257/api/SubTasks/todo/1 - 500 - text/plain;+charset=utf-8 120.9805ms 
+2025-09-17 20:57:55.3644 | INFO | Request starting HTTP/1.1 POST https://localhost:7257/api/user/login - application/json 59 
+2025-09-17 20:57:55.3759 | INFO | Auth attempt: POST /api/user/login from ::1 - Request: {"email":"yifive4682@merumart.com","password":"[REDACTED]"} 
+2025-09-17 20:57:55.3759 | INFO | Executing endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:57:55.3759 | INFO | Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ToDo.API.Dtos.UserDtos.Login.LoginRequestDto) on controller ToDo.API.Controllers.UserController (ToDo.API). 
+2025-09-17 20:57:55.3759 | INFO | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) - Validation state: Valid 
+2025-09-17 20:57:55.4467 | INFO | Executed DbCommand (20ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [u1].[Id], [u1].[CreatedAt], [u1].[CreatedBy], [u1].[Email], [u1].[EmailVerificationCodeExpires], [u1].[EmailVerificationCodeHash], [u1].[IsDeleted], [u1].[IsEmailConfirmed], [u1].[LastVerificationSentAt], [u1].[Password], [u1].[UpdatedAt], [u1].[Username], [s].[UserId], [s].[RoleId], [s].[CreatedAt], [s].[CreatedBy], [s].[Id], [s].[IsDeleted], [s].[UpdatedAt], [s].[Id0], [s].[CreatedAt0], [s].[CreatedBy0], [s].[IsDeleted0], [s].[Name], [s].[UpdatedAt0]
+FROM (
+    SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+    FROM [Users] AS [u]
+    WHERE [u].[Email] = @__dto_Email_0 AND [u].[IsDeleted] = CAST(0 AS bit) AND [u].[IsDeleted] = CAST(0 AS bit)
+) AS [u1]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreatedAt], [u0].[CreatedBy], [u0].[Id], [u0].[IsDeleted], [u0].[UpdatedAt], [r].[Id] AS [Id0], [r].[CreatedAt] AS [CreatedAt0], [r].[CreatedBy] AS [CreatedBy0], [r].[IsDeleted] AS [IsDeleted0], [r].[Name], [r].[UpdatedAt] AS [UpdatedAt0]
+    FROM [UserRole] AS [u0]
+    INNER JOIN [Roles] AS [r] ON [u0].[RoleId] = [r].[Id]
+) AS [s] ON [u1].[Id] = [s].[UserId]
+ORDER BY [u1].[Id], [s].[UserId], [s].[RoleId] 
+2025-09-17 20:57:55.5299 | INFO | Executed action method ToDo.API.Controllers.UserController.Login (ToDo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 146.223ms. 
+2025-09-17 20:57:55.5299 | INFO | Executing OkObjectResult, writing value of type 'ToDo.API.Dtos.UserDtos.Login.LoginResponseDto'. 
+2025-09-17 20:57:55.5318 | INFO | Executed action ToDo.API.Controllers.UserController.Login (ToDo.API) in 153.0314ms 
+2025-09-17 20:57:55.5318 | INFO | Executed endpoint 'ToDo.API.Controllers.UserController.Login (ToDo.API)' 
+2025-09-17 20:57:55.5318 | INFO | Auth result: POST /api/user/login from ::1 - Status: 200 - ResponsePreview: {"accessToken":"[REDACTED]":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOiIxIiwiVXNlck5hbWUiOiJ0ZXN0Iiwic3ViIjoidGVzdCIsImp0aSI6ImRlZGJiNDkyLTlmZDItNDQ2Zi1hZjk2LWMyYTc0NzM4NGFhMiIsImlhdCI6MTc1ODEzMTg3NSwibmJmIjoxNzU4MTMxODc1LCJleHAiOjE3NTgxMzU0NzUsImlzcyI6IlRvRG9... 
+2025-09-17 20:57:55.5318 | INFO | Request finished HTTP/1.1 POST https://localhost:7257/api/user/login - 200 - application/json;+charset=utf-8 168.1276ms 
