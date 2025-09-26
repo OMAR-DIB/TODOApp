@@ -15,16 +15,26 @@ namespace ToDo.API.Services.UserServices
         private readonly IEmailService _emailService;
         private readonly ITokenService _tokenService;
         private readonly ILogger<UserServices> _logger;
+        private readonly IGenericRepository<UserRole> _userRoleRepository;
+        private readonly IGenericRepository<Role> _roleRepository;
 
         // cooldown window for resending
         private static readonly TimeSpan ResendCooldown = TimeSpan.FromMinutes(1);
         private static readonly TimeSpan CodeExpiry = TimeSpan.FromMinutes(15);
 
-        public UserServices(IGenericRepository<User> userRepository, ITokenService tokenService, IEmailService emailService, ILogger<UserServices> logger)
+        public UserServices(
+    IGenericRepository<User> userRepository,
+    IGenericRepository<Role> roleRepository,
+    IGenericRepository<UserRole> userRoleRepository,
+    ITokenService tokenService,
+    IEmailService emailService,
+    ILogger<UserServices> logger)
         {
             _userRepository = userRepository;
-            _emailService = emailService;
+            _roleRepository = roleRepository;
+            _userRoleRepository = userRoleRepository;
             _tokenService = tokenService;
+            _emailService = emailService;
             _logger = logger;
         }
 
@@ -47,12 +57,27 @@ namespace ToDo.API.Services.UserServices
             entity.EmailVerificationCodeExpires = DateTime.UtcNow.Add(CodeExpiry);
             entity.LastVerificationSentAt = DateTime.UtcNow;
 
+            // save user first to get Id
             var result = await _userRepository.AddAsync(entity);
-            await _userRepository.SaveChangesAsync(); // persist to get Id
+            await _userRepository.SaveChangesAsync();
 
-            // send code by email; if sending fails, remove created user (roll back)
+            // assign default role ("User")
+            var defaultRole = await _roleRepository.GetOneByFilter(r => r.Name == "User");
+            if (defaultRole == null)
+                throw new InvalidOperationException("Default role 'User' not found. Did you seed it?");
+
+            await _userRoleRepository.AddAsync(new UserRole
+            {
+                UserId = result.Id,
+                RoleId = defaultRole.Id
+            });
+            await _userRoleRepository.SaveChangesAsync();
+
+            // send code by email; rollback if fails
             var subject = "Confirm your email";
-            var body = $"Hi {result.Username},<br/><br/>Your verification code is <b>{code}</b>. It expires in {CodeExpiry.TotalMinutes} minutes.<br/><br/>If you didn't request this, ignore this email.";
+            var body = $"Hi {result.Username},<br/><br/>Your verification code is <b>{code}</b>. " +
+                       $"It expires in {CodeExpiry.TotalMinutes} minutes.<br/><br/>" +
+                       "If you didn't request this, ignore this email.";
             try
             {
                 await _emailService.SendEmailAsync(result.Email, subject, body);
@@ -60,14 +85,20 @@ namespace ToDo.API.Services.UserServices
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to send confirmation email to {Email}", result.Email);
-                // rollback (permanent delete) to avoid orphan unverified account:
+
+                // rollback both user and role assignment
+                await _userRoleRepository.DeleteAsync(new UserRole { UserId = result.Id, RoleId = defaultRole.Id }, softDelete: false);
                 await _userRepository.DeleteAsync(result, softDelete: false);
+
+                await _userRoleRepository.SaveChangesAsync();
                 await _userRepository.SaveChangesAsync();
+
                 throw new InvalidOperationException("Failed to send confirmation email. Please try again later.");
             }
 
             return result.ToCreateUserResponseDto();
         }
+
 
         public async Task<VerifyEmailResponseDto> VerifyEmailAsync(VerifyEmailRequestDto dto)
         {

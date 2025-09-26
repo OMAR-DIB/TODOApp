@@ -65,7 +65,7 @@ namespace ToDo.Data.Repositories
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task<T?> GetOneByFilter(Expression<Func<T, bool>> filter, string includeProperties)
+        public async Task<T?> GetOneByFilter(Expression<Func<T, bool>> filter, string includeProperties = "")
         {
             IQueryable<T> query = _dbSet.Where(filter).Where(e => !e.IsDeleted);
 
@@ -79,6 +79,7 @@ namespace ToDo.Data.Repositories
 
             return await query.FirstOrDefaultAsync();
         }
+
 
         public async Task<T> AddAsync(T entity)
         {
@@ -121,6 +122,19 @@ namespace ToDo.Data.Repositories
         public async Task<int> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync();
+        }
+
+        public async Task<Role?> GetOneByFilter(Expression<Func<Role, bool>> predicate, string includeProperties = "")
+        {
+            IQueryable<Role> query = _context.Set<Role>();
+
+            // support eager-loading
+            foreach (var includeProp in includeProperties.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProp);
+            }
+
+            return await query.FirstOrDefaultAsync(predicate);
         }
     }
 }
