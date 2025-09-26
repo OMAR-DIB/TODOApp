@@ -4950,11 +4950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\ToDo.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\ToDo.Data.csproj",
       "projectName": "ToDo.Data",
-      "projectPath": "C:\\Users\\User\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\ToDo.Data.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\ToDo.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\ToDoBackend\\ToDo\\ToDo.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

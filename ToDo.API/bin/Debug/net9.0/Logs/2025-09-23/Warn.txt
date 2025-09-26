@@ -1,0 +1,3 @@
+2025-09-23 16:34:34.3775 | WARN | Failed to determine the https port for redirect. 
+2025-09-23 16:36:50.4280 | WARN | Failed to determine the https port for redirect. 
+2025-09-23 16:51:07.3903 | WARN | Failed to determine the https port for redirect. 

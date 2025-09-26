@@ -1,0 +1,504 @@
+2025-09-25 06:54:12.3628 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-25 06:54:12.5355 | DEBUG | Hosting starting 
+2025-09-25 06:54:12.6008 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-25 06:54:12.6785 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-25 06:54:12.7082 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-25 06:54:12.7082 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 06:54:12.7082 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-25 06:54:12.7082 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 06:54:12.7210 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-25 06:54:12.7210 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-25 06:54:12.7210 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-25 06:54:12.7210 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-25 06:54:12.7381 | DEBUG | Middleware loaded 
+2025-09-25 06:54:12.7381 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-25 06:54:12.7381 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-25 06:54:12.8401 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-25 06:54:12.8401 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-25 06:54:12.8544 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-25 06:54:12.9001 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-25 06:54:12.9001 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-25 06:54:12.9001 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-25 06:54:12.9001 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-25 06:54:12.9121 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 06:54:12.9121 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 06:54:12.9684 | DEBUG | Hosting started 
+2025-09-25 06:59:41.7371 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-25 06:59:41.8326 | DEBUG | Hosting starting 
+2025-09-25 06:59:41.8613 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-25 06:59:41.8760 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-25 06:59:41.8999 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-25 06:59:41.8999 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 06:59:41.9062 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-25 06:59:41.9062 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 06:59:41.9062 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-25 06:59:41.9062 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-25 06:59:41.9062 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-25 06:59:41.9062 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-25 06:59:41.9208 | DEBUG | Middleware loaded 
+2025-09-25 06:59:41.9208 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-25 06:59:41.9208 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-25 06:59:41.9749 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-25 06:59:41.9749 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-25 06:59:41.9749 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-25 06:59:41.9936 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-25 06:59:41.9936 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-25 06:59:41.9936 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-25 06:59:41.9936 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-25 06:59:42.0007 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 06:59:42.0007 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 06:59:42.0385 | DEBUG | Hosting started 
+2025-09-25 07:25:00.0626 | DEBUG | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-25 07:25:00.4204 | DEBUG | The index {'UserId'} was not created on entity type 'UserRole' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-09-25 07:25:00.7028 | DEBUG | Entity Framework Core 9.0.8 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: MigrationsAssembly=ToDo.Data EngineType=SqlServer  
+2025-09-25 07:25:00.7824 | DEBUG | Compiling query expression: 
+'DbSet<Role>()
+    .FirstOrDefault(r => r.Name == "Admin")' 
+2025-09-25 07:25:00.9803 | DEBUG | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Role>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Role.CreatedAt (DateTime) Required, 1], [Property: Role.CreatedBy (string) Required, 2], [Property: Role.IsDeleted (bool) Required, 3], [Property: Role.Name (string) Required, 4], [Property: Role.UpdatedAt (DateTime?), 5] }
+        SELECT TOP(1) r.Id, r.CreatedAt, r.CreatedBy, r.IsDeleted, r.Name, r.UpdatedAt
+        FROM Roles AS r
+        WHERE r.Name == N'Admin') | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Role.CreatedAt (DateTime) Required, 1], [Property: Role.CreatedBy (string) Required, 2], [Property: Role.IsDeleted (bool) Required, 3], [Property: Role.Name (string) Required, 4], [Property: Role.UpdatedAt (DateTime?), 5] }
+        SELECT TOP(1) r.Id, r.CreatedAt, r.CreatedBy, r.IsDeleted, r.Name, r.UpdatedAt
+        FROM Roles AS r
+        WHERE r.Name == N'Admin', 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: [LIFTABLE Constant: ReaderColumn[] { ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<object>, ReaderColumn<DateTime> } | Resolver: namelessParameter{0} => new ReaderColumn[]
+    { 
+        new ReaderColumn<int>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Id"), 
+            (dataReader, indexMap) => dataReader.GetInt32(0)
+        ), 
+        new ReaderColumn<DateTime>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedAt"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(1)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("CreatedBy"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(2)
+        ), 
+        new ReaderColumn<bool>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("IsDeleted"), 
+            (dataReader, indexMap) => dataReader.GetBoolean(3)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("Name"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(4)
+        ), 
+        new ReaderColumn<DateTime>(
+            True, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindProperty("UpdatedAt"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(5)
+        ) 
+    }], 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Role entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Role instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Role);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Role.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Role)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]: 
+                        {
+                            return 
+                            {
+                                Role instance;
+                                instance = new Role();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<CreatedBy>k__BackingField = (string)dataReader.GetFieldValue<object>(2);
+                                instance.<IsDeleted>k__BackingField = dataReader.GetBoolean(3);
+                                instance.<Name>k__BackingField = (string)dataReader.GetFieldValue<object>(4);
+                                instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(5) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(5);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Role | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.Role")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Role)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: ToDo.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)
+    .SingleOrDefault()' 
+2025-09-25 07:25:01.0081 | DEBUG | Creating DbConnection. 
+2025-09-25 07:25:01.0298 | DEBUG | Created DbConnection. (15ms). 
+2025-09-25 07:25:01.0298 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.2963 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.2963 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-25 07:25:01.3140 | DEBUG | Created DbCommand for 'ExecuteReader' (9ms). 
+2025-09-25 07:25:01.3140 | DEBUG | Initialized DbCommand for 'ExecuteReader' (17ms). 
+2025-09-25 07:25:01.3140 | DEBUG | Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreatedAt], [r].[CreatedBy], [r].[IsDeleted], [r].[Name], [r].[UpdatedAt]
+FROM [Roles] AS [r]
+WHERE [r].[Name] = N'Admin' 
+2025-09-25 07:25:01.4210 | DEBUG | Context 'AppDbContext' started tracking 'Role' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.4210 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.4210 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 32ms reading results. 
+2025-09-25 07:25:01.4210 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.4210 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (2ms). 
+2025-09-25 07:25:01.4507 | DEBUG | Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Email == __adminEmail_0)' 
+2025-09-25 07:25:01.4507 | DEBUG | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<User>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+        SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+        FROM Users AS u
+        WHERE u.Email == @__adminEmail_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedAt (DateTime) Required, 1], [Property: User.CreatedBy (string) Required, 2], [Property: User.Email (string) Required, 3], [Property: User.EmailVerificationCodeExpires (DateTime?), 4], [Property: User.EmailVerificationCodeHash (string), 5], [Property: User.IsDeleted (bool) Required, 6], [Property: User.IsEmailConfirmed (bool) Required, 7], [Property: User.LastVerificationSentAt (DateTime?), 8], [Property: User.Password (string) Required, 9], [Property: User.UpdatedAt (DateTime?), 10], [Property: User.Username (string) Required MaxLength(50), 11] }
+        SELECT TOP(1) u.Id, u.CreatedAt, u.CreatedBy, u.Email, u.EmailVerificationCodeExpires, u.EmailVerificationCodeHash, u.IsDeleted, u.IsEmailConfirmed, u.LastVerificationSentAt, u.Password, u.UpdatedAt, u.Username
+        FROM Users AS u
+        WHERE u.Email == @__adminEmail_0, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: [LIFTABLE Constant: ReaderColumn[] { ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<bool>, ReaderColumn<bool>, ReaderColumn<DateTime>, ReaderColumn<object>, ReaderColumn<DateTime>, ReaderColumn<object> } | Resolver: namelessParameter{0} => new ReaderColumn[]
+    { 
+        new ReaderColumn<int>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Id"), 
+            (dataReader, indexMap) => dataReader.GetInt32(0)
+        ), 
+        new ReaderColumn<DateTime>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedAt"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(1)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("CreatedBy"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(2)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Email"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(3)
+        ), 
+        new ReaderColumn<DateTime>(
+            True, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeExpires"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(4)
+        ), 
+        new ReaderColumn<object>(
+            True, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("EmailVerificationCodeHash"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(5)
+        ), 
+        new ReaderColumn<bool>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsDeleted"), 
+            (dataReader, indexMap) => dataReader.GetBoolean(6)
+        ), 
+        new ReaderColumn<bool>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("IsEmailConfirmed"), 
+            (dataReader, indexMap) => dataReader.GetBoolean(7)
+        ), 
+        new ReaderColumn<DateTime>(
+            True, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("LastVerificationSentAt"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(8)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Password"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(9)
+        ), 
+        new ReaderColumn<DateTime>(
+            True, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("UpdatedAt"), 
+            (dataReader, indexMap) => dataReader.GetDateTime(10)
+        ), 
+        new ReaderColumn<object>(
+            False, 
+            null, 
+            namelessParameter{0}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindProperty("Username"), 
+            (dataReader, indexMap) => (object)dataReader.GetString(11)
+        ) 
+    }], 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        User entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            User instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(User);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (User)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]: 
+                        {
+                            return 
+                            {
+                                User instance;
+                                instance = new User();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(1);
+                                instance.<CreatedBy>k__BackingField = (string)dataReader.GetFieldValue<object>(2);
+                                instance.<Email>k__BackingField = (string)dataReader.GetFieldValue<object>(3);
+                                instance.<EmailVerificationCodeExpires>k__BackingField = dataReader.IsDBNull(4) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(4);
+                                instance.<EmailVerificationCodeHash>k__BackingField = dataReader.IsDBNull(5) ? default(string) : (string)dataReader.GetFieldValue<object>(5);
+                                instance.<IsDeleted>k__BackingField = dataReader.GetBoolean(6);
+                                instance.<IsEmailConfirmed>k__BackingField = dataReader.GetBoolean(7);
+                                instance.<LastVerificationSentAt>k__BackingField = dataReader.IsDBNull(8) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(8);
+                                instance.<Password>k__BackingField = (string)dataReader.GetFieldValue<object>(9);
+                                instance.<UpdatedAt>k__BackingField = dataReader.IsDBNull(10) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(10);
+                                instance.<Username>k__BackingField = (string)dataReader.GetFieldValue<object>(11);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ToDo.Data.Entities.User")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(User)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: ToDo.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)
+    .SingleOrDefault()' 
+2025-09-25 07:25:01.4507 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.4507 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.4507 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-25 07:25:01.4507 | DEBUG | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-25 07:25:01.4507 | DEBUG | Initialized DbCommand for 'ExecuteReader' (1ms). 
+2025-09-25 07:25:01.4507 | DEBUG | Executing DbCommand [Parameters=[@__adminEmail_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__adminEmail_0 
+2025-09-25 07:25:01.5005 | DEBUG | Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.5005 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5005 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 21ms reading results. 
+2025-09-25 07:25:01.5005 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5005 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (0ms). 
+2025-09-25 07:25:01.5005 | DEBUG | Compiling query expression: 
+'DbSet<UserRole>()
+    .Any(ur => ur.UserId == __adminUser_Id_0 && ur.RoleId == __adminRole_Id_1)' 
+2025-09-25 07:25:01.5005 | DEBUG | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<bool>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM UserRoles AS u
+            WHERE (u.UserId == @__adminUser_Id_0) && (u.RoleId == @__adminRole_Id_1))) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM UserRoles AS u
+            WHERE (u.UserId == @__adminUser_Id_0) && (u.RoleId == @__adminRole_Id_1)), 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: [LIFTABLE Constant: ReaderColumn[] { ReaderColumn<bool> } | Resolver: namelessParameter{0} => new ReaderColumn[]{ new ReaderColumn<bool>(
+        True, 
+        null, 
+        default(IPropertyBase), 
+        (dataReader, indexMap) => dataReader.GetBoolean(0)
+    ) }], 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        bool? value1;
+        value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+        return (bool)value1;
+    }, 
+    contextType: ToDo.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)
+    .Single()' 
+2025-09-25 07:25:01.5319 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5319 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5319 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-25 07:25:01.5319 | DEBUG | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-25 07:25:01.5319 | DEBUG | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-25 07:25:01.5319 | DEBUG | Executing DbCommand [Parameters=[@__adminUser_Id_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [UserRoles] AS [u]
+        WHERE [u].[UserId] = @__adminUser_Id_0 AND [u].[RoleId] = @__adminRole_Id_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-25 07:25:01.5319 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5319 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 0ms reading results. 
+2025-09-25 07:25:01.5319 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.5319 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (0ms). 
+2025-09-25 07:25:01.5610 | DEBUG | The navigation 'UserRole.Role' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.5685 | DEBUG | The navigation 'UserRole.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.5685 | DEBUG | Context 'AppDbContext' started tracking 'UserRole' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.5685 | DEBUG | SaveChanges starting for 'AppDbContext'. 
+2025-09-25 07:25:01.6139 | DEBUG | Opening connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.6139 | DEBUG | Opened connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.6139 | DEBUG | Creating DbCommand for 'ExecuteReader'. 
+2025-09-25 07:25:01.6139 | DEBUG | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-25 07:25:01.6139 | DEBUG | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-25 07:25:01.6139 | DEBUG | Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoles] ([RoleId], [UserId], [CreatedAt], [CreatedBy], [IsDeleted], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); 
+2025-09-25 07:25:01.6316 | DEBUG | Closing data reader to 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.6316 | DEBUG | A data reader for 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' is being disposed after spending 7ms reading results. 
+2025-09-25 07:25:01.6316 | DEBUG | Closing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.6316 | DEBUG | Closed connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS' (0ms). 
+2025-09-25 07:25:01.6537 | DEBUG | An entity of type 'UserRole' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-25 07:25:01.6537 | DEBUG | SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2025-09-25 07:25:01.6587 | DEBUG | 'AppDbContext' disposed. 
+2025-09-25 07:25:01.6587 | DEBUG | Disposing connection to database 'ToDoApp' on server 'DESKTOP-2PRV1GI\SQLEXPRESS'. 
+2025-09-25 07:25:01.6587 | DEBUG | Disposed connection to database '' on server '' (1ms). 
+2025-09-25 07:25:01.7001 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-25 07:25:01.7462 | DEBUG | Hosting starting 
+2025-09-25 07:25:01.7537 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-25 07:25:01.7659 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-25 07:25:01.7815 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-25 07:25:01.7815 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 07:25:01.7815 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-25 07:25:01.7815 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-25 07:25:01.7815 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-25 07:25:01.7815 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-25 07:25:01.7815 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-25 07:25:01.7815 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-25 07:25:01.7815 | DEBUG | Middleware loaded 
+2025-09-25 07:25:01.7815 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-25 07:25:01.7815 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-25 07:25:01.8549 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-25 07:25:01.8549 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-25 07:25:01.8549 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-25 07:25:01.8796 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-25 07:25:01.8796 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-25 07:25:01.8796 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-25 07:25:01.8796 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-25 07:25:01.8796 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 07:25:01.8796 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-25 07:25:01.9673 | DEBUG | Hosting started 

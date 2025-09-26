@@ -1,0 +1,39 @@
+2025-09-25 06:54:12.5782 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-25 06:54:12.9001 | INFO | Now listening on: http://localhost:5292 
+2025-09-25 06:54:12.9684 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-25 06:54:12.9684 | INFO | Hosting environment: Development 
+2025-09-25 06:54:12.9684 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-25 06:59:41.8517 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-25 06:59:41.9936 | INFO | Now listening on: http://localhost:5292 
+2025-09-25 06:59:42.0385 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-25 06:59:42.0385 | INFO | Hosting environment: Development 
+2025-09-25 06:59:42.0385 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-25 07:25:01.3920 | INFO | Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreatedAt], [r].[CreatedBy], [r].[IsDeleted], [r].[Name], [r].[UpdatedAt]
+FROM [Roles] AS [r]
+WHERE [r].[Name] = N'Admin' 
+2025-09-25 07:25:01.4944 | INFO | Executed DbCommand (29ms) [Parameters=[@__adminEmail_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[Email], [u].[EmailVerificationCodeExpires], [u].[EmailVerificationCodeHash], [u].[IsDeleted], [u].[IsEmailConfirmed], [u].[LastVerificationSentAt], [u].[Password], [u].[UpdatedAt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__adminEmail_0 
+2025-09-25 07:25:01.5319 | INFO | Executed DbCommand (5ms) [Parameters=[@__adminUser_Id_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [UserRoles] AS [u]
+        WHERE [u].[UserId] = @__adminUser_Id_0 AND [u].[RoleId] = @__adminRole_Id_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-25 07:25:01.6316 | INFO | Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoles] ([RoleId], [UserId], [CreatedAt], [CreatedBy], [IsDeleted], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); 
+2025-09-25 07:25:01.6537 | INFO | Assigned Admin role to user 3. 
+2025-09-25 07:25:01.6587 | INFO | AdminUserId=3, AdminRoleId=1 
+2025-09-25 07:25:01.7537 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-25 07:25:01.8796 | INFO | Now listening on: http://localhost:5292 
+2025-09-25 07:25:01.9673 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-25 07:25:01.9673 | INFO | Hosting environment: Development 
+2025-09-25 07:25:01.9673 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API 

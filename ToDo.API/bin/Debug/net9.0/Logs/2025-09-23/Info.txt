@@ -1,0 +1,55 @@
+2025-09-23 16:34:21.8430 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-23 16:34:22.0845 | INFO | Now listening on: http://localhost:5000 
+2025-09-23 16:34:22.0845 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-23 16:34:22.0845 | INFO | Hosting environment: Production 
+2025-09-23 16:34:22.0845 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0 
+2025-09-23 16:34:34.3222 | INFO | Request starting HTTP/1.1 GET http://localhost:5000/ - - - 
+2025-09-23 16:34:34.5398 | INFO | Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 - 214.5496ms 
+2025-09-23 16:34:34.5398 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404 
+2025-09-23 16:34:50.2716 | INFO | Request starting HTTP/1.1 GET http://localhost:5000/swagger - - - 
+2025-09-23 16:34:50.2754 | INFO | Request finished HTTP/1.1 GET http://localhost:5000/swagger - 404 0 - 4.4071ms 
+2025-09-23 16:34:50.2754 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/swagger, Response status code: 404 
+2025-09-23 16:35:12.7895 | INFO | Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 
+2025-09-23 16:35:12.7895 | INFO | Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 404 0 - 7.8880ms 
+2025-09-23 16:35:12.7895 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/swagger/index.html, Response status code: 404 
+2025-09-23 16:36:39.6991 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-23 16:36:39.8166 | INFO | Now listening on: http://localhost:5000 
+2025-09-23 16:36:39.8166 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-23 16:36:39.8166 | INFO | Hosting environment: Production 
+2025-09-23 16:36:39.8166 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API\bin\Debug\net9.0 
+2025-09-23 16:36:50.3370 | INFO | Request starting HTTP/1.1 GET http://localhost:5000/ - - - 
+2025-09-23 16:36:50.5464 | INFO | Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 - 202.0746ms 
+2025-09-23 16:36:50.5496 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404 
+2025-09-23 16:36:56.3001 | INFO | Request starting HTTP/1.1 GET http://localhost:5000/ - - - 
+2025-09-23 16:36:56.3001 | INFO | Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 - 9.5706ms 
+2025-09-23 16:36:56.3001 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404 
+2025-09-23 16:50:55.1854 | INFO | User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-23 16:50:55.4369 | INFO | Now listening on: http://localhost:5292 
+2025-09-23 16:50:55.5620 | INFO | Application started. Press Ctrl+C to shut down. 
+2025-09-23 16:50:55.5620 | INFO | Hosting environment: Development 
+2025-09-23 16:50:55.5620 | INFO | Content root path: C:\Users\User\OneDrive\Desktop\ToDoBackend\ToDo\ToDo.API 
+2025-09-23 16:51:07.0543 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/ - - - 
+2025-09-23 16:51:07.4928 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/ - 404 0 - 423.3385ms 
+2025-09-23 16:51:07.4928 | INFO | Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5292/, Response status code: 404 
+2025-09-23 16:51:15.4421 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger - - - 
+2025-09-23 16:51:15.4593 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger - 301 0 - 25.5675ms 
+2025-09-23 16:51:15.4830 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.html - - - 
+2025-09-23 16:51:15.6991 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.html - 200 - text/html;charset=utf-8 217.1482ms 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui.css - - - 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.css - - - 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-standalone-preset.js - - - 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-bundle.js - - - 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/index.js - - - 
+2025-09-23 16:51:15.7813 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-23 16:51:15.7813 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.js - 200 - application/javascript;charset=utf-8 5.1083ms 
+2025-09-23 16:51:15.8035 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript;+charset=utf-8 9.1225ms 
+2025-09-23 16:51:15.8388 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/index.css - 200 152 text/css 52.3118ms 
+2025-09-23 16:51:15.8388 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui.css - 200 23647 text/css 58.9929ms 
+2025-09-23 16:51:15.8435 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-standalone-preset.js - 200 70860 text/javascript 57.0194ms 
+2025-09-23 16:51:15.8688 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/swagger-ui-bundle.js - 200 417980 text/javascript 81.5973ms 
+2025-09-23 16:51:16.7341 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/_vs/browserLink - - - 
+2025-09-23 16:51:16.8734 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 140.0975ms 
+2025-09-23 16:51:17.1200 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - - - 
+2025-09-23 16:51:17.1610 | INFO | Request starting HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - - - 
+2025-09-23 16:51:17.2037 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/favicon-32x32.png - 200 628 image/png 44.8075ms 
+2025-09-23 16:51:17.5882 | INFO | Request finished HTTP/1.1 GET http://localhost:5292/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 468.4653ms 

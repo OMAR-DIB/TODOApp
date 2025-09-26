@@ -286,7 +286,7 @@ namespace ToDo.Data.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("UserRole");
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("ToDo.Data.Entities.Notification", b =>

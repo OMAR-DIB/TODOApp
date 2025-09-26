@@ -1,0 +1,279 @@
+2025-09-18 15:18:21.9263 | TRACE | All hosts are allowed. 
+2025-09-18 15:18:21.9713 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:19:00.3633 | TRACE | All hosts are allowed. 
+2025-09-18 15:19:00.3908 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:20:19.8780 | TRACE | All hosts are allowed. 
+2025-09-18 15:20:19.9107 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:20:20.9119 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:20.9213 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:20.9213 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:20.9213 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:20.9213 | TRACE | Executing action method ToDo.API.Controllers.UserController.Register (ToDo.API) with arguments (ToDo.API.Dtos.UserDtos.CreateUserRequestDto) 
+2025-09-18 15:20:24.7340 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:24.7340 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 15:20:24.7844 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 15:20:24.7844 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:24.7844 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:52.5785 | TRACE | All hosts are allowed. 
+2025-09-18 15:20:52.5785 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:20:52.6564 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:52.6564 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:52.6564 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:52.6564 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:52.6564 | TRACE | Executing action method ToDo.API.Controllers.UserController.VerifyEmail (ToDo.API) with arguments (VerifyEmailRequestDto { Email = sarajhicham@gmail.com, Code = 284582 }) 
+2025-09-18 15:20:52.8114 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:20:52.8114 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:20:52.8114 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:20:52.8114 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:10.2380 | TRACE | All hosts are allowed. 
+2025-09-18 15:22:10.2380 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:22:10.4101 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:10.4101 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:10.4101 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:10.4101 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:10.4101 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = sarajhicham@gmail.com, Password = P@ssw0rd }) 
+2025-09-18 15:22:10.9064 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:22:10.9064 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:22:10.9064 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:10.9064 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:29.8562 | TRACE | All hosts are allowed. 
+2025-09-18 15:22:29.8562 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:22:29.9758 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:29.9758 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:29.9758 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:29.9758 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:30.0796 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:22:30.1117 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 15:22:30.1117 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:22:30.1117 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-18 15:58:34.8387 | TRACE | Connection id "0HNFMLMTTHO5D" received HEADERS frame for stream ID 1 with length 380 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-18 15:58:34.8482 | TRACE | Connection id "0HNFMLMTTHO5D" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-18 15:58:34.8482 | TRACE | All hosts are allowed. 
+2025-09-18 15:58:34.8482 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:58:34.8777 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:58:34.8777 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:58:34.8777 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:58:34.8777 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:58:34.8777 | TRACE | Executing action method ToDo.API.Controllers.NotificationsController.GetUserNotifications (ToDo.API) with arguments (True) 
+2025-09-18 15:58:34.9223 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-18 15:58:34.9223 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-09-18 15:58:34.9223 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 15:58:34.9223 | TRACE | Connection id "0HNFMLMTTHO5D" sending HEADERS frame for stream ID 1 with length 68 and flags END_HEADERS. 
+2025-09-18 15:58:34.9223 | TRACE | Connection id "0HNFMLMTTHO5D" sending DATA frame for stream ID 1 with length 48 and flags END_STREAM. 
+2025-09-18 15:59:31.9036 | TRACE | Connection id "0HNFMLMTTHO5D" received HEADERS frame for stream ID 3 with length 77 and flags END_HEADERS, PRIORITY. 
+2025-09-18 15:59:31.9054 | TRACE | Connection id "0HNFMLMTTHO5D" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-18 15:59:31.9054 | TRACE | Connection id "0HNFMLMTTHO5D" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-18 15:59:31.9054 | TRACE | Connection id "0HNFMLMTTHO5D" received DATA frame for stream ID 3 with length 61 and flags END_STREAM. 
+2025-09-18 15:59:31.9054 | TRACE | All hosts are allowed. 
+2025-09-18 15:59:31.9054 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 15:59:31.9277 | TRACE | Connection id "0HNFMLMTTHO5D" sending HEADERS frame for stream ID 3 with length 49 and flags END_STREAM, END_HEADERS. 
+2025-09-18 16:00:54.7076 | TRACE | All hosts are allowed. 
+2025-09-18 16:00:54.7076 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:00:54.7188 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:00:54.7188 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:00:54.7188 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:00:54.7188 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:00:54.7188 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = yifive4682@merumart.com, Password = P@ssw0rd }) 
+2025-09-18 16:00:54.9920 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:00:54.9920 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:00:54.9920 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:00:54.9920 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:01:12.2180 | TRACE | All hosts are allowed. 
+2025-09-18 16:01:12.2180 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:01:16.6467 | TRACE | All hosts are allowed. 
+2025-09-18 16:01:16.6467 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:01:44.3610 | TRACE | Connection id "0HNFMLMTTHO5D" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-09-18 16:07:32.0149 | TRACE | All hosts are allowed. 
+2025-09-18 16:07:32.0149 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:07:32.0319 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:32.0319 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:32.0319 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:32.0319 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:32.0319 | TRACE | Executing action method ToDo.API.Controllers.UserController.Login (ToDo.API) with arguments (LoginRequestDto { Email = sarajhicham@gmail.com, Password = P@ssw0rd }) 
+2025-09-18 16:07:32.1638 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:07:32.1638 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:07:32.1638 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:32.1638 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:47.1399 | TRACE | All hosts are allowed. 
+2025-09-18 16:07:47.1399 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:07:47.1562 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:47.1562 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:47.1562 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:47.1562 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:47.1562 | TRACE | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) with arguments (CreateToDosRequestDto { Title = test, Description = fdsadas, ToDoAt = 9/17/2025 }) 
+2025-09-18 16:07:47.1788 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:47.1788 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:47.1946 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:47.1946 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:47.1946 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:55.5250 | TRACE | All hosts are allowed. 
+2025-09-18 16:07:55.5250 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) with arguments (CreateToDosRequestDto { Title = test, Description = fdsadas, ToDoAt = 9/17/2025 }) 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:55.5320 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:55.5320 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:55.5320 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:59.9560 | TRACE | All hosts are allowed. 
+2025-09-18 16:07:59.9560 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:07:59.9560 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:59.9560 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:59.9560 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:59.9675 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:59.9846 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:07:59.9846 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:07:59.9846 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:07.1406 | TRACE | All hosts are allowed. 
+2025-09-18 16:08:07.1406 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) with arguments (CreateToDosRequestDto { Title = test, Description = fdsadas, ToDoAt = 9/17/2025 }) 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:08:07.1406 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-18 16:08:07.1406 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:07.1406 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:23.7979 | TRACE | All hosts are allowed. 
+2025-09-18 16:08:23.7979 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:08:23.7979 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:23.7979 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:23.7979 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:23.7979 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:23.7979 | TRACE | Executing action method ToDo.API.Controllers.ToDosController.CreateToDo (ToDo.API) with arguments (CreateToDosRequestDto { Title = test, Description = fdsadas, ToDoAt = 9/29/2025 }) 
+2025-09-18 16:08:23.9426 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:23.9426 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 16:08:23.9526 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 16:08:23.9526 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:08:23.9526 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:09:38.6242 | TRACE | All hosts are allowed. 
+2025-09-18 16:09:38.6242 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:09:48.3475 | TRACE | All hosts are allowed. 
+2025-09-18 16:09:48.3475 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:11:03.8147 | TRACE | All hosts are allowed. 
+2025-09-18 16:11:03.8147 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:11:03.8287 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:03.8287 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:03.8287 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:03.8287 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:03.8287 | TRACE | Executing action method ToDo.API.Controllers.SubTasksController.CreateSubTask (ToDo.API) with arguments (CreateSubTaskRequestDto { ToDoId = 2, Title = test }) 
+2025-09-18 16:11:03.9367 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 16:11:03.9367 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult. 
+2025-09-18 16:11:03.9367 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:03.9367 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:18.8717 | TRACE | All hosts are allowed. 
+2025-09-18 16:11:18.8717 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:11:18.8737 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:18.8737 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:18.8737 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:18.8737 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:18.8737 | TRACE | Executing action method ToDo.API.Controllers.SubTasksController.GetSubTask (ToDo.API) with arguments (1) 
+2025-09-18 16:11:18.9119 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:11:18.9119 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:11:18.9119 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:18.9119 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:28.9772 | TRACE | All hosts are allowed. 
+2025-09-18 16:11:28.9772 | TRACE | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-18 16:11:28.9772 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:28.9772 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:28.9772 | TRACE | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:28.9772 | TRACE | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:28.9955 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:11:28.9992 | TRACE | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-09-18 16:11:28.9992 | TRACE | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-18 16:11:28.9992 | TRACE | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 

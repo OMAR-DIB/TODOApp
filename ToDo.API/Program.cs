@@ -1,7 +1,7 @@
-
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using NLog;
 using NLog.Extensions.Logging;
@@ -20,7 +20,9 @@ using ToDo.API.Services.ToDoServices;
 using ToDo.API.Services.TokenServices;
 using ToDo.API.Services.UserServices;
 using ToDo.API.Validators;
+using ToDo.Data;
 using ToDo.Data.DI;
+using ToDo.Data.Entities;
 using ToDo.Data.Repositories;
 
 namespace ToDo.API
@@ -116,13 +118,68 @@ namespace ToDo.API
                 builder.Services.AddSwaggerGen(c =>
                 {
                     c.CustomSchemaIds(type => type.FullName);
-                });
+                }); 
                 var app = builder.Build();
 
                 // Configure the HTTP request pipeline.
                 app.UseMiddleware<AuthLoggingMiddleware>();
                 if (app.Environment.IsDevelopment())
                 {
+                    // Program.cs - add this block before app.Run();
+                    using (var scope = app.Services.CreateScope())
+                    {
+                        var env = scope.ServiceProvider.GetRequiredService<IHostEnvironment>();
+                        if (!env.IsDevelopment())
+                        {
+                            // Remove this guard if you want to run in production (not recommended)
+                        }
+
+                        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                        //var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+                        var hasher = new PasswordHasher<User>();
+
+                        // 1) Ensure Admin role exists
+                        var adminRole = db.Roles.FirstOrDefault(r => r.Name == "Admin");
+                        if (adminRole == null)
+                        {
+                            adminRole = new Role { Name = "Admin", CreatedAt = DateTime.UtcNow, CreatedBy = "System" };
+                            db.Roles.Add(adminRole);
+                            db.SaveChanges();
+                            //logger.LogInformation("Seeded Admin role.");
+                        }
+
+                        // 2) Create admin user if not exists
+                        var adminEmail = "sarajhicham@gmail.com"; // change to your preferred email
+                        var adminUser = db.Users.FirstOrDefault(u => u.Email == adminEmail);
+                        if (adminUser == null)
+                        {
+                            adminUser = new User
+                            {
+                                Username = "admin",
+                                Email = adminEmail,
+                                IsEmailConfirmed = true,
+                                CreatedAt = DateTime.UtcNow,
+                                CreatedBy = "System"
+                            };
+                            adminUser.Password = hasher.HashPassword(adminUser, "adminadmin"); // change password immediately after first login
+                            db.Users.Add(adminUser);
+                            db.SaveChanges();
+                            logger.Info("Created admin user with email {Email}.", adminEmail);
+                        }
+
+                        // 3) Create mapping in UserRoles if not exists
+                        var exists = db.UserRoles.Any(ur => ur.UserId == adminUser.Id && ur.RoleId == adminRole.Id);
+                        if (!exists)
+                        {
+                            db.UserRoles.Add(new UserRole { UserId = adminUser.Id, RoleId = adminRole.Id });
+                            db.SaveChanges();
+                            logger.Info("Assigned Admin role to user {UserId}.", adminUser.Id);
+                        }
+
+                        // 4) If you want, log the ids
+                        logger.Info("AdminUserId={AdminUserId}, AdminRoleId={AdminRoleId}", adminUser.Id, adminRole.Id);
+                    }
+
                     app.UseSwagger();
                     app.UseSwaggerUI(c =>
                     {

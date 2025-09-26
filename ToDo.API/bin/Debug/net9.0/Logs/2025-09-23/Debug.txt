@@ -1,0 +1,154 @@
+2025-09-23 16:34:21.5746 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-23 16:34:21.7969 | DEBUG | Hosting starting 
+2025-09-23 16:34:21.8593 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-23 16:34:21.9462 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-23 16:34:21.9836 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-23 16:34:21.9836 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:34:21.9925 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-23 16:34:21.9925 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:34:22.0027 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-23 16:34:22.0027 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-23 16:34:22.0027 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-23 16:34:22.0027 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-23 16:34:22.0317 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-23 16:34:22.0317 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-23 16:34:22.0766 | DEBUG | No listening endpoints were configured. Binding to http://localhost:5000 by default. 
+2025-09-23 16:34:22.0845 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-23 16:34:22.0845 | DEBUG | Hosting started 
+2025-09-23 16:34:34.2391 | DEBUG | Connection id "0HNFQKNNFK0TA" accepted. 
+2025-09-23 16:34:34.2391 | DEBUG | Connection id "0HNFQKNNFK0TA" started. 
+2025-09-23 16:34:34.3631 | DEBUG | No candidates found for the request path '/' 
+2025-09-23 16:34:34.3631 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:34:34.5145 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:34:34.5238 | DEBUG | Connection id "0HNFQKNNFK0TA" completed keep alive response. 
+2025-09-23 16:34:50.2716 | DEBUG | No candidates found for the request path '/swagger' 
+2025-09-23 16:34:50.2716 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:34:50.2754 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:34:50.2754 | DEBUG | Connection id "0HNFQKNNFK0TA" completed keep alive response. 
+2025-09-23 16:35:12.7895 | DEBUG | No candidates found for the request path '/swagger/index.html' 
+2025-09-23 16:35:12.7895 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:35:12.7895 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:35:12.7895 | DEBUG | Connection id "0HNFQKNNFK0TA" completed keep alive response. 
+2025-09-23 16:36:39.5454 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-23 16:36:39.6770 | DEBUG | Hosting starting 
+2025-09-23 16:36:39.7116 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-23 16:36:39.7292 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-23 16:36:39.7496 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-23 16:36:39.7524 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:36:39.7524 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-23 16:36:39.7524 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:36:39.7524 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-23 16:36:39.7665 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-23 16:36:39.7665 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-23 16:36:39.7665 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-23 16:36:39.7875 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-23 16:36:39.7875 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-23 16:36:39.8086 | DEBUG | No listening endpoints were configured. Binding to http://localhost:5000 by default. 
+2025-09-23 16:36:39.8166 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-23 16:36:39.8166 | DEBUG | Hosting started 
+2025-09-23 16:36:50.2292 | DEBUG | Connection id "0HNFQKP00GM4E" accepted. 
+2025-09-23 16:36:50.2292 | DEBUG | Connection id "0HNFQKP00GM4E" started. 
+2025-09-23 16:36:50.4021 | DEBUG | No candidates found for the request path '/' 
+2025-09-23 16:36:50.4021 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:36:50.5100 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:36:50.5199 | DEBUG | Connection id "0HNFQKP00GM4E" completed keep alive response. 
+2025-09-23 16:36:56.3001 | DEBUG | No candidates found for the request path '/' 
+2025-09-23 16:36:56.3001 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:36:56.3001 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:36:56.3001 | DEBUG | Connection id "0HNFQKP00GM4E" completed keep alive response. 
+2025-09-23 16:39:07.7209 | DEBUG | Connection id "0HNFQKP00GM4E" disconnecting. 
+2025-09-23 16:39:07.7209 | DEBUG | Connection id "0HNFQKP00GM4E" stopped. 
+2025-09-23 16:39:07.7278 | DEBUG | Connection id "0HNFQKP00GM4E" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:50:55.0394 | DEBUG | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-23 16:50:55.1652 | DEBUG | Hosting starting 
+2025-09-23 16:50:55.1873 | DEBUG | Reading data from file 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys\key-cb61fb62-f4ef-41cd-9d69-58589f90bbdb.xml'. 
+2025-09-23 16:50:55.2163 | DEBUG | Found key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb}. 
+2025-09-23 16:50:55.2383 | DEBUG | Considering key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} with expiration date 2025-12-16 08:29:21Z as default key. 
+2025-09-23 16:50:55.2383 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:50:55.2383 | DEBUG | Decrypting secret element using Windows DPAPI. 
+2025-09-23 16:50:55.2383 | DEBUG | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-23 16:50:55.2534 | DEBUG | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-23 16:50:55.2534 | DEBUG | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-23 16:50:55.2534 | DEBUG | Using key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} as the default key. 
+2025-09-23 16:50:55.2534 | DEBUG | Key ring with default key {cb61fb62-f4ef-41cd-9d69-58589f90bbdb} was loaded during application startup. 
+2025-09-23 16:50:55.2534 | DEBUG | Middleware loaded 
+2025-09-23 16:50:55.2667 | DEBUG | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B). 
+2025-09-23 16:50:55.2667 | DEBUG | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-23 16:50:55.3964 | DEBUG | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-23 16:50:55.3964 | DEBUG | Wildcard detected, all requests with hosts will be allowed. 
+2025-09-23 16:50:55.3964 | DEBUG | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-23 16:50:55.4369 | DEBUG | Loaded hosting startup assembly ToDo.API 
+2025-09-23 16:50:55.4369 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-23 16:50:55.4369 | DEBUG | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-23 16:50:55.4369 | DEBUG | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-23 16:50:55.4483 | DEBUG | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-23 16:50:55.4483 | DEBUG | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-23 16:50:55.5620 | DEBUG | Hosting started 
+2025-09-23 16:51:06.9766 | DEBUG | Connection id "0HNFQL0VB35DS" accepted. 
+2025-09-23 16:51:06.9766 | DEBUG | Connection id "0HNFQL0VB35DS" started. 
+2025-09-23 16:51:07.3077 | DEBUG | No candidates found for the request path '/' 
+2025-09-23 16:51:07.3077 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:07.4547 | DEBUG | AuthenticationScheme: Bearer was not authenticated. 
+2025-09-23 16:51:07.4654 | DEBUG | Connection id "0HNFQL0VB35DS" completed keep alive response. 
+2025-09-23 16:51:15.4593 | DEBUG | No candidates found for the request path '/swagger' 
+2025-09-23 16:51:15.4593 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.4593 | DEBUG | Connection id "0HNFQL0VB35DS" completed keep alive response. 
+2025-09-23 16:51:15.4873 | DEBUG | No candidates found for the request path '/swagger/index.html' 
+2025-09-23 16:51:15.4873 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.6759 | DEBUG | Response markup is scheduled to include Browser Link script injection. 
+2025-09-23 16:51:15.6759 | DEBUG | Response markup is scheduled to include browser refresh script injection. 
+2025-09-23 16:51:15.6991 | DEBUG | Response markup was updated to include Browser Link script injection. 
+2025-09-23 16:51:15.6991 | DEBUG | Response markup was updated to include browser refresh script injection. 
+2025-09-23 16:51:15.6991 | DEBUG | Connection id "0HNFQL0VB35DS" completed keep alive response. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DT" accepted. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DT" started. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DU" accepted. 
+2025-09-23 16:51:15.7813 | DEBUG | No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DV" accepted. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DU" started. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35DV" started. 
+2025-09-23 16:51:15.7813 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35E0" accepted. 
+2025-09-23 16:51:15.7813 | DEBUG | No candidates found for the request path '/swagger/index.css' 
+2025-09-23 16:51:15.7813 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.7813 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-09-23 16:51:15.7813 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.7813 | DEBUG | No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-09-23 16:51:15.7813 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35E0" started. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35E1" accepted. 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35E1" started. 
+2025-09-23 16:51:15.7813 | DEBUG | No candidates found for the request path '/swagger/index.js' 
+2025-09-23 16:51:15.7813 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:15.7813 | DEBUG | Connection id "0HNFQL0VB35E0" completed keep alive response. 
+2025-09-23 16:51:15.8035 | DEBUG | Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-09-23 16:51:15.8035 | DEBUG | Connection id "0HNFQL0VB35E1" completed keep alive response. 
+2025-09-23 16:51:15.8388 | DEBUG | Connection id "0HNFQL0VB35DT" completed keep alive response. 
+2025-09-23 16:51:15.8388 | DEBUG | Connection id "0HNFQL0VB35DS" completed keep alive response. 
+2025-09-23 16:51:15.8435 | DEBUG | Connection id "0HNFQL0VB35DV" completed keep alive response. 
+2025-09-23 16:51:15.8688 | DEBUG | Connection id "0HNFQL0VB35DU" completed keep alive response. 
+2025-09-23 16:51:16.8734 | DEBUG | Connection id "0HNFQL0VB35DU" completed keep alive response. 
+2025-09-23 16:51:17.1200 | DEBUG | No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-09-23 16:51:17.1200 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:17.1610 | DEBUG | No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-09-23 16:51:17.1610 | DEBUG | Request did not match any endpoints 
+2025-09-23 16:51:17.2037 | DEBUG | Connection id "0HNFQL0VB35DS" completed keep alive response. 
+2025-09-23 16:51:17.5882 | DEBUG | Connection id "0HNFQL0VB35DU" completed keep alive response. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35DT" disconnecting. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35DV" disconnecting. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35E0" disconnecting. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35E0" stopped. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35DT" stopped. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35DV" stopped. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35E1" disconnecting. 
+2025-09-23 16:53:27.3846 | DEBUG | Connection id "0HNFQL0VB35E1" stopped. 
+2025-09-23 16:53:27.3893 | DEBUG | Connection id "0HNFQL0VB35DT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:53:27.3893 | DEBUG | Connection id "0HNFQL0VB35E0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:53:27.3893 | DEBUG | Connection id "0HNFQL0VB35E1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:53:27.3893 | DEBUG | Connection id "0HNFQL0VB35DV" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:53:28.3963 | DEBUG | Connection id "0HNFQL0VB35DS" disconnecting. 
+2025-09-23 16:53:28.3963 | DEBUG | Connection id "0HNFQL0VB35DS" stopped. 
+2025-09-23 16:53:28.3963 | DEBUG | Connection id "0HNFQL0VB35DS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-23 16:53:29.4102 | DEBUG | Connection id "0HNFQL0VB35DU" disconnecting. 
+2025-09-23 16:53:29.4102 | DEBUG | Connection id "0HNFQL0VB35DU" stopped. 
+2025-09-23 16:53:29.4102 | DEBUG | Connection id "0HNFQL0VB35DU" sending FIN because: "The Socket transport's send loop completed gracefully." 
